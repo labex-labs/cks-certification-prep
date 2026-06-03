@@ -12,11 +12,97 @@
 
 Prepare-se para o exame Certified Kubernetes Security Specialist (CKS) com um percurso de aprendizagem estruturado e prático. O foco está em endurecimento de cluster, endurecimento de sistema, minimização de vulnerabilidades em microserviços, segurança da cadeia de suprimentos, monitoramento, logging e segurança em runtime no Kubernetes, tarefas baseadas em desempenho ao estilo CKS e cenários do mundo real. Cursos CKS, laboratórios e exames simulados serão adicionados ao longo do tempo.
 
-**Cursos**: 2 · **Labs**: 40
+**Cursos**: 3 · **Labs**: 85
 
 ## Cursos
 
-### 1. [Exame Prático CKS 01](https://labex.io/pt/courses/cks-practice-exam-01)
+### 1. [Preparatório para CKS](https://labex.io/pt/courses/cks-prep)
+
+Um curso preparatório para CKS ideal para iniciantes, com 45 experimentos guiados de segurança em Kubernetes, organizados desde os fundamentos de segurança até a configuração de clusters, endurecimento (hardening), segurança de cargas de trabalho, cadeia de suprimentos, auditoria e investigação em tempo de execução.
+
+[Iniciar Curso](https://labex.io/pt/courses/cks-prep) · Labs: 45
+
+#### Security Foundations for Kubernetes
+
+|   Índice | Nome                                                      | Dificuldade   | Prática                                                                                               |
+|----------|-----------------------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Mapear Limites de Segurança do Kubernetes              | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/map-kubernetes-security-boundaries-663929?course=cks-prep)     |
+|        2 | 🧩  Coleta de Evidências de Segurança com kubectl          | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/collect-security-evidence-with-kubectl-663911?course=cks-prep) |
+|        3 | 🧩  Revisão de Namespaces e Isolamento de Tenants          | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/review-namespaces-and-tenant-isolation-663942?course=cks-prep) |
+|        4 | 🧩  Inspecionar Assuntos e Permissões de RBAC              | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/inspect-rbac-subjects-and-permissions-663924?course=cks-prep)  |
+|        5 | 🧩  Inspecionar o Comportamento do Token de ServiceAccount | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/inspect-serviceaccount-token-behavior-663925?course=cks-prep)  |
+|        6 | 🧩  Aplicar Padrões de Segurança de Pods                   | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/apply-pod-security-standards-663906?course=cks-prep)           |
+
+#### Cluster Setup Security
+
+|   Índice | Nome                                                     | Dificuldade   | Prática                                                                                                      |
+|----------|----------------------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Restringir o tráfego de Namespace com NetworkPolicy   | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/restrict-namespace-traffic-with-networkpolicy-663938?course=cks-prep) |
+|        2 | 🧩  Permitir DNS através de Egress Default-Deny           | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/allow-dns-through-default-deny-egress-663905?course=cks-prep)         |
+|        3 | 🧩  Publicar Ingress com TLS                              | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/publish-ingress-with-tls-663932?course=cks-prep)                      |
+|        4 | 🧩  Negar Acesso da Carga de Trabalho aos Metadados do Nó | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/deny-workload-access-to-node-metadata-663913?course=cks-prep)         |
+|        5 | 🧩  Verificar Binários do Kubernetes                      | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/verify-kubernetes-binaries-663948?course=cks-prep)                    |
+|        6 | 🧩  Revisar descobertas do CIS com o kube-bench           | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/review-cis-findings-with-kube-bench-663940?course=cks-prep)           |
+|        7 | 🧩  Verificar a Prontidão de Admissão e Segurança de Pods | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/check-admission-and-pod-security-readiness-663910?course=cks-prep)    |
+
+#### Cluster Hardening
+
+|   Índice | Nome                                                        | Dificuldade   | Prática                                                                                                    |
+|----------|-------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Minimizar as Permissões de uma Role                      | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/minimize-a-role-s-permissions-663930?course=cks-prep)               |
+|        2 | 🧩  Reduzir um ClusterRoleBinding com privilégios excessivos | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/reduce-an-overprivileged-clusterrolebinding-663934?course=cks-prep) |
+|        3 | 🧩  Desativar Montagens de Token de ServiceAccount Padrão    | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/disable-default-serviceaccount-token-mounts-663917?course=cks-prep) |
+|        4 | 🧩  Delimitar uma Role de Operador de Namespace              | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/scope-a-namespace-operator-role-663947?course=cks-prep)             |
+|        5 | 🧩  Bloqueio de Escalação via Proxy do Servidor de API       | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/block-api-server-proxy-escalation-663908?course=cks-prep)           |
+|        6 | 🧩  Conter um Token de ServiceAccount Vazado                 | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/contain-a-leaked-serviceaccount-token-663912?course=cks-prep)       |
+|        7 | 🧩  Auditar Acesso a Recursos Sensíveis                      | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/audit-access-to-sensitive-resources-663907?course=cks-prep)         |
+
+#### System and Node Hardening
+
+|   Índice | Nome                                                               | Dificuldade   | Prática                                                                                                          |
+|----------|--------------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Inspecione a Superfície de Ataque do Host com Segurança         | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/inspect-host-attack-surface-safely-663923?course=cks-prep)                |
+|        2 | 🧩  Desativar um serviço de depuração do host                       | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/disable-a-host-debug-service-663916?course=cks-prep)                      |
+|        3 | 🧩  Revisão da Exposição do Kubelet                                 | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/review-kubelet-exposure-663941?course=cks-prep)                           |
+|        4 | 🧩  Revisar a Aplicação de Perfil AppArmor em uma Carga de Trabalho | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/review-apparmor-profile-enforcement-on-a-workload-663919?course=cks-prep) |
+|        5 | 🧩  Instalar um Perfil seccomp Local                                | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/install-a-local-seccomp-profile-663926?course=cks-prep)                   |
+|        6 | 🧩  Remover acesso HostPath de uma carga de trabalho                | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/remove-hostpath-access-from-a-workload-663936?course=cks-prep)            |
+
+#### Workload and Microservice Security
+
+|   Índice | Nome                                                    | Dificuldade   | Prática                                                                                                 |
+|----------|---------------------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Endurecer um Contexto de Segurança de Pod            | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/harden-a-pod-security-context-663922?course=cks-prep)            |
+|        2 | 🧩  Remover Capabilities do Linux                        | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/drop-linux-capabilities-663918?course=cks-prep)                  |
+|        3 | 🧩  Executar Containers como Não-Root                    | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/run-containers-as-non-root-663944?course=cks-prep)               |
+|        4 | 🧩  Proteger Segredos com Arquivos Projetados            | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/protect-secrets-with-projected-files-663931?course=cks-prep)     |
+|        5 | 🧩  Rotacionar e Restringir Segredos da Aplicação        | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/rotate-and-constrain-application-secrets-663943?course=cks-prep) |
+|        6 | 🧩  Isolar um Limite de Sidecar de Risco                 | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/isolate-a-risky-sidecar-boundary-663928?course=cks-prep)         |
+|        7 | 🧩  Impor Contêineres de Runtime Imutáveis               | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/enforce-immutable-runtime-containers-663920?course=cks-prep)     |
+|        8 | 🧩  Colocar uma Carga de Trabalho Suspeita em Quarentena | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/quarantine-a-suspicious-workload-663933?course=cks-prep)         |
+
+#### Supply Chain Security
+
+|   Índice | Nome                                                          | Dificuldade   | Prática                                                                                                 |
+|----------|---------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Construir uma Imagem Mínima Aprovada                       | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/build-a-minimal-approved-image-663909?course=cks-prep)           |
+|        2 | 🧩  Analisar Manifestos de Carga de Trabalho com o kube-linter | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/scan-workload-manifests-with-kube-linter-663946?course=cks-prep) |
+|        3 | 🧩  Analisar a saída do Helm com o kube-linter                 | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/scan-helm-output-with-kube-linter-663945?course=cks-prep)        |
+|        4 | 🧩  Verificar SBOM e Evidências de Checksum                    | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/verify-sbom-and-checksum-evidence-663949?course=cks-prep)        |
+|        5 | 🧩  Impor Registros de Imagem Confiáveis                       | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/enforce-trusted-image-registries-663921?course=cks-prep)         |
+|        6 | 🧩  Remover Segredos de Build de uma Imagem                    | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/remove-build-secrets-from-an-image-663935?course=cks-prep)       |
+
+#### Monitoring, Audit, and Runtime Security
+
+|   Índice | Nome                                                      | Dificuldade   | Prática                                                                                              |
+|----------|-----------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Revisar Eventos de Auditoria para Acesso a Segredos    | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/review-audit-events-for-secret-access-663939?course=cks-prep) |
+|        2 | 🧩  Investigar Atividade Não Autorizada na API             | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/investigate-unauthorized-api-activity-663927?course=cks-prep) |
+|        3 | 🧩  Detectar Processos de Runtime Suspeitos                | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/detect-suspicious-runtime-processes-663915?course=cks-prep)   |
+|        4 | 🧩  Detectar Desvio de Arquivo em Tempo de Execução        | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/detect-runtime-file-drift-663914?course=cks-prep)             |
+|        5 | 🧩  Restaurar Política a partir de Evidências de Auditoria | Iniciante     | [Iniciar Lab](https://labex.io/pt/labs/restore-policy-from-audit-evidence-663937?course=cks-prep)    |
+
+### 2. [Exame Prático CKS 01](https://labex.io/pt/courses/cks-practice-exam-01)
 
 Um exame prático e prático de CKS com 20 desafios independentes de segurança em Kubernetes, abrangendo configuração de cluster, endurecimento de cluster, endurecimento de sistema, redução de vulnerabilidades em microsserviços, segurança da cadeia de suprimentos e segurança em tempo de execução.
 
@@ -72,7 +158,7 @@ Um exame prático e prático de CKS com 20 desafios independentes de segurança 
 |        3 | 🎯  Impor Contêineres de Runtime Imutáveis               | Iniciante     | [Iniciar Desafio](https://labex.io/pt/labs/enforce-immutable-runtime-containers-663180?course=cks-practice-exam-01)  |
 |        4 | 🎯  Investigar Atividade Não Autorizada na API           | Iniciante     | [Iniciar Desafio](https://labex.io/pt/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
-### 2. [Exame Prático CKS 02](https://labex.io/pt/courses/cks-practice-exam-02)
+### 3. [Exame Prático CKS 02](https://labex.io/pt/courses/cks-practice-exam-02)
 
 Um segundo exame prático independente no estilo CKS, com 20 desafios de segurança em Kubernetes que abrangem os domínios públicos do CKS por meio de diferentes cenários de segurança operacional.
 
