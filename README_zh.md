@@ -12,11 +12,97 @@
 
 通过结构化的动手学习路径备考 Certified Kubernetes Security Specialist（CKS）考试。本路线图侧重 Kubernetes 上的集群加固、系统加固、微服务漏洞最小化、供应链安全，以及监控、日志与运行时安全，以及贴近 CKS 风格的性能型考试任务与真实场景。后续将逐步加入 CKS 课程、实验环境与模拟考试练习，帮助你建立与 CKS 目标一致的能力。
 
-**课程**: 2 · **实验**: 40
+**课程**: 3 · **实验**: 85
 
 ## 课程
 
-### 1. [CKS 模拟考试 01](https://labex.io/zh/courses/cks-practice-exam-01)
+### 1. [CKS 备考指南](https://labex.io/zh/courses/cks-prep)
+
+这是一门面向初学者的 CKS 备考课程，包含 45 个引导式 Kubernetes 安全实验。课程内容由浅入深，涵盖安全基础、集群搭建、加固、工作负载安全、供应链安全、审计及运行时调查等核心领域。
+
+[开始课程](https://labex.io/zh/courses/cks-prep) · 实验: 45
+
+#### Security Foundations for Kubernetes
+
+|   序号 | 名称                            | 难度   | 练习                                                                                             |
+|------|-------------------------------|------|------------------------------------------------------------------------------------------------|
+|    1 | 🧩  映射 Kubernetes 安全边界         | 初级   | [开始实验](https://labex.io/zh/labs/map-kubernetes-security-boundaries-663929?course=cks-prep)     |
+|    2 | 🧩  使用 kubectl 收集安全证据          | 初级   | [开始实验](https://labex.io/zh/labs/collect-security-evidence-with-kubectl-663911?course=cks-prep) |
+|    3 | 🧩  回顾命名空间与租户隔离                | 初级   | [开始实验](https://labex.io/zh/labs/review-namespaces-and-tenant-isolation-663942?course=cks-prep) |
+|    4 | 🧩  检查 RBAC 主体与权限              | 初级   | [开始实验](https://labex.io/zh/labs/inspect-rbac-subjects-and-permissions-663924?course=cks-prep)  |
+|    5 | 🧩  检查 ServiceAccount Token 行为 | 初级   | [开始实验](https://labex.io/zh/labs/inspect-serviceaccount-token-behavior-663925?course=cks-prep)  |
+|    6 | 🧩  应用 Pod 安全标准                | 初级   | [开始实验](https://labex.io/zh/labs/apply-pod-security-standards-663906?course=cks-prep)           |
+
+#### Cluster Setup Security
+
+|   序号 | 名称                             | 难度   | 练习                                                                                                    |
+|------|--------------------------------|------|-------------------------------------------------------------------------------------------------------|
+|    1 | 🧩  使用 NetworkPolicy 限制命名空间流量   | 初级   | [开始实验](https://labex.io/zh/labs/restrict-namespace-traffic-with-networkpolicy-663938?course=cks-prep) |
+|    2 | 🧩  允许 DNS 通过默认拒绝的出站流量策略        | 初级   | [开始实验](https://labex.io/zh/labs/allow-dns-through-default-deny-egress-663905?course=cks-prep)         |
+|    3 | 🧩  使用 TLS 发布 Ingress           | 初级   | [开始实验](https://labex.io/zh/labs/publish-ingress-with-tls-663932?course=cks-prep)                      |
+|    4 | 🧩  拒绝工作负载访问节点元数据               | 初级   | [开始实验](https://labex.io/zh/labs/deny-workload-access-to-node-metadata-663913?course=cks-prep)         |
+|    5 | 🧩  验证 Kubernetes 二进制文件         | 初级   | [开始实验](https://labex.io/zh/labs/verify-kubernetes-binaries-663948?course=cks-prep)                    |
+|    6 | 🧩  使用 kube-bench 审查 CIS 安全基准发现 | 初级   | [开始实验](https://labex.io/zh/labs/review-cis-findings-with-kube-bench-663940?course=cks-prep)           |
+|    7 | 🧩  检查准入与 Pod 安全就绪状态            | 初级   | [开始实验](https://labex.io/zh/labs/check-admission-and-pod-security-readiness-663910?course=cks-prep)    |
+
+#### Cluster Hardening
+
+|   序号 | 名称                            | 难度   | 练习                                                                                                  |
+|------|-------------------------------|------|-----------------------------------------------------------------------------------------------------|
+|    1 | 🧩  最小化角色权限                    | 初级   | [开始实验](https://labex.io/zh/labs/minimize-a-role-s-permissions-663930?course=cks-prep)               |
+|    2 | 🧩  缩减权限过大的 ClusterRoleBinding | 初级   | [开始实验](https://labex.io/zh/labs/reduce-an-overprivileged-clusterrolebinding-663934?course=cks-prep) |
+|    3 | 🧩  禁用默认 ServiceAccount 令牌挂载   | 初级   | [开始实验](https://labex.io/zh/labs/disable-default-serviceaccount-token-mounts-663917?course=cks-prep) |
+|    4 | 🧩  限定命名空间操作员的角色权限             | 初级   | [开始实验](https://labex.io/zh/labs/scope-a-namespace-operator-role-663947?course=cks-prep)             |
+|    5 | 🧩  阻止 API Server 代理提权         | 初级   | [开始实验](https://labex.io/zh/labs/block-api-server-proxy-escalation-663908?course=cks-prep)           |
+|    6 | 🧩  包含泄露的 ServiceAccount 令牌    | 初级   | [开始实验](https://labex.io/zh/labs/contain-a-leaked-serviceaccount-token-663912?course=cks-prep)       |
+|    7 | 🧩  审计敏感资源访问权限                 | 初级   | [开始实验](https://labex.io/zh/labs/audit-access-to-sensitive-resources-663907?course=cks-prep)         |
+
+#### System and Node Hardening
+
+|   序号 | 名称                             | 难度   | 练习                                                                                                        |
+|------|--------------------------------|------|-----------------------------------------------------------------------------------------------------------|
+|    1 | 🧩  安全检查主机攻击面                   | 初级   | [开始实验](https://labex.io/zh/labs/inspect-host-attack-surface-safely-663923?course=cks-prep)                |
+|    2 | 🧩  禁用主机调试服务                    | 初级   | [开始实验](https://labex.io/zh/labs/disable-a-host-debug-service-663916?course=cks-prep)                      |
+|    3 | 🧩  审查 Kubelet 暴露情况             | 初级   | [开始实验](https://labex.io/zh/labs/review-kubelet-exposure-663941?course=cks-prep)                           |
+|    4 | 🧩  审查工作负载的 AppArmor 配置文件强制执行情况 | 初级   | [开始实验](https://labex.io/zh/labs/review-apparmor-profile-enforcement-on-a-workload-663919?course=cks-prep) |
+|    5 | 🧩  安装本地 seccomp 配置文件           | 初级   | [开始实验](https://labex.io/zh/labs/install-a-local-seccomp-profile-663926?course=cks-prep)                   |
+|    6 | 🧩  移除工作负载的 HostPath 访问权限       | 初级   | [开始实验](https://labex.io/zh/labs/remove-hostpath-access-from-a-workload-663936?course=cks-prep)            |
+
+#### Workload and Microservice Security
+
+|   序号 | 名称                       | 难度   | 练习                                                                                               |
+|------|--------------------------|------|--------------------------------------------------------------------------------------------------|
+|    1 | 🧩  加固 Pod 安全上下文          | 初级   | [开始实验](https://labex.io/zh/labs/harden-a-pod-security-context-663922?course=cks-prep)            |
+|    2 | 🧩  移除 Linux Capabilities | 初级   | [开始实验](https://labex.io/zh/labs/drop-linux-capabilities-663918?course=cks-prep)                  |
+|    3 | 🧩  以非 Root 用户身份运行容器      | 初级   | [开始实验](https://labex.io/zh/labs/run-containers-as-non-root-663944?course=cks-prep)               |
+|    4 | 🧩  使用投射文件保护密钥            | 初级   | [开始实验](https://labex.io/zh/labs/protect-secrets-with-projected-files-663931?course=cks-prep)     |
+|    5 | 🧩  旋转并限制应用密钥             | 初级   | [开始实验](https://labex.io/zh/labs/rotate-and-constrain-application-secrets-663943?course=cks-prep) |
+|    6 | 🧩  隔离高风险的 Sidecar 边界     | 初级   | [开始实验](https://labex.io/zh/labs/isolate-a-risky-sidecar-boundary-663928?course=cks-prep)         |
+|    7 | 🧩  强制执行不可变运行时容器          | 初级   | [开始实验](https://labex.io/zh/labs/enforce-immutable-runtime-containers-663920?course=cks-prep)     |
+|    8 | 🧩  隔离可疑工作负载              | 初级   | [开始实验](https://labex.io/zh/labs/quarantine-a-suspicious-workload-663933?course=cks-prep)         |
+
+#### Supply Chain Security
+
+|   序号 | 名称                           | 难度   | 练习                                                                                               |
+|------|------------------------------|------|--------------------------------------------------------------------------------------------------|
+|    1 | 🧩  构建最小化合规镜像                 | 初级   | [开始实验](https://labex.io/zh/labs/build-a-minimal-approved-image-663909?course=cks-prep)           |
+|    2 | 🧩  使用 kube-linter 扫描工作负载清单   | 初级   | [开始实验](https://labex.io/zh/labs/scan-workload-manifests-with-kube-linter-663946?course=cks-prep) |
+|    3 | 🧩  使用 kube-linter 扫描 Helm 输出 | 初级   | [开始实验](https://labex.io/zh/labs/scan-helm-output-with-kube-linter-663945?course=cks-prep)        |
+|    4 | 🧩  验证 SBOM 和校验和证据            | 初级   | [开始实验](https://labex.io/zh/labs/verify-sbom-and-checksum-evidence-663949?course=cks-prep)        |
+|    5 | 🧩  强制执行受信任的镜像仓库              | 初级   | [开始实验](https://labex.io/zh/labs/enforce-trusted-image-registries-663921?course=cks-prep)         |
+|    6 | 🧩  从镜像中移除构建密钥                | 初级   | [开始实验](https://labex.io/zh/labs/remove-build-secrets-from-an-image-663935?course=cks-prep)       |
+
+#### Monitoring, Audit, and Runtime Security
+
+|   序号 | 名称                   | 难度   | 练习                                                                                            |
+|------|----------------------|------|-----------------------------------------------------------------------------------------------|
+|    1 | 🧩  审查 Secret 访问的审计事件 | 初级   | [开始实验](https://labex.io/zh/labs/review-audit-events-for-secret-access-663939?course=cks-prep) |
+|    2 | 🧩  调查未经授权的 API 活动    | 初级   | [开始实验](https://labex.io/zh/labs/investigate-unauthorized-api-activity-663927?course=cks-prep) |
+|    3 | 🧩  检测可疑运行时进程         | 初级   | [开始实验](https://labex.io/zh/labs/detect-suspicious-runtime-processes-663915?course=cks-prep)   |
+|    4 | 🧩  检测运行时文件漂移         | 初级   | [开始实验](https://labex.io/zh/labs/detect-runtime-file-drift-663914?course=cks-prep)             |
+|    5 | 🧩  从审计证据中恢复策略        | 初级   | [开始实验](https://labex.io/zh/labs/restore-policy-from-audit-evidence-663937?course=cks-prep)    |
+
+### 2. [CKS 模拟考试 01](https://labex.io/zh/courses/cks-practice-exam-01)
 
 这是一套实战型 CKS 模拟考试，包含 20 个独立的 Kubernetes 安全挑战，涵盖集群设置、集群加固、系统加固、微服务漏洞缓解、供应链安全以及运行时安全等核心领域。
 
@@ -72,7 +158,7 @@
 |    3 | 🎯  强制执行不可变运行时容器      | 初级   | [开始挑战](https://labex.io/zh/labs/enforce-immutable-runtime-containers-663180?course=cks-practice-exam-01)  |
 |    4 | 🎯  调查未经授权的 API 活动    | 初级   | [开始挑战](https://labex.io/zh/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
-### 2. [CKS 模拟考试 02](https://labex.io/zh/courses/cks-practice-exam-02)
+### 3. [CKS 模拟考试 02](https://labex.io/zh/courses/cks-practice-exam-02)
 
 第二套独立的 CKS 风格模拟考试，包含 20 个 Kubernetes 安全挑战，涵盖了 CKS 公开考试大纲中涉及的各类操作安全场景。
 
