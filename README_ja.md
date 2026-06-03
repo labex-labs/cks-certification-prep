@@ -12,11 +12,97 @@
 
 Certified Kubernetes Security Specialist（CKS）試験に向けた、体系的かつ実践的な学習パスです。Kubernetes におけるクラスター強化、システム強化、マイクロサービスの脆弱性最小化、サプライチェーンセキュリティ、監視・ログ・ランタイムセキュリティ、および CKS 形式のパフォーマンスベースのタスクと現実的なシナリオに焦点を当てます。CKS コース、ラボ、模擬試験の演習は順次追加され、CKS の目標に沿ったスキルを育成します。
 
-**コース**: 2 · **ラボ**: 40
+**コース**: 3 · **ラボ**: 85
 
 ## コース
 
-### 1. [CKS 模擬試験 01](https://labex.io/ja/courses/cks-practice-exam-01)
+### 1. [CKS 試験対策コース](https://labex.io/ja/courses/cks-prep)
+
+Kubernetes セキュリティの基礎から、クラスターの構築、ハードニング、ワークロードの保護、サプライチェーン、監査、実行時の調査まで、45 のガイド付き実験を通じて体系的に学べる初心者向けの CKS 対策コースです。
+
+[コースを開始](https://labex.io/ja/courses/cks-prep) · ラボ: 45
+
+#### Security Foundations for Kubernetes
+
+|   インデックス | 名前                             | 難易度   | 練習                                                                                              |
+|----------|--------------------------------|-------|-------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Kubernetes セキュリティ境界のマッピング   | 初級    | [ラボを開始](https://labex.io/ja/labs/map-kubernetes-security-boundaries-663929?course=cks-prep)     |
+|        2 | 🧩  kubectl を使用したセキュリティエビデンスの収集 | 初級    | [ラボを開始](https://labex.io/ja/labs/collect-security-evidence-with-kubectl-663911?course=cks-prep) |
+|        3 | 🧩  ネームスペースとテナント分離の確認           | 初級    | [ラボを開始](https://labex.io/ja/labs/review-namespaces-and-tenant-isolation-663942?course=cks-prep) |
+|        4 | 🧩  RBAC のサブジェクトと権限の調査          | 初級    | [ラボを開始](https://labex.io/ja/labs/inspect-rbac-subjects-and-permissions-663924?course=cks-prep)  |
+|        5 | 🧩  ServiceAccount トークンの動作を調査する | 初級    | [ラボを開始](https://labex.io/ja/labs/inspect-serviceaccount-token-behavior-663925?course=cks-prep)  |
+|        6 | 🧩  Pod Security Standards の適用  | 初級    | [ラボを開始](https://labex.io/ja/labs/apply-pod-security-standards-663906?course=cks-prep)           |
+
+#### Cluster Setup Security
+
+|   インデックス | 名前                                            | 難易度   | 練習                                                                                                     |
+|----------|-----------------------------------------------|-------|--------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  NetworkPolicy を使用した名前空間トラフィックの制限           | 初級    | [ラボを開始](https://labex.io/ja/labs/restrict-namespace-traffic-with-networkpolicy-663938?course=cks-prep) |
+|        2 | 🧩  デフォルト拒否（Default-Deny）Egress における DNS 通信の許可 | 初級    | [ラボを開始](https://labex.io/ja/labs/allow-dns-through-default-deny-egress-663905?course=cks-prep)         |
+|        3 | 🧩  Ingress を TLS で公開する                        | 初級    | [ラボを開始](https://labex.io/ja/labs/publish-ingress-with-tls-663932?course=cks-prep)                      |
+|        4 | 🧩  ワークロードによるノードメタデータへのアクセス拒否                  | 初級    | [ラボを開始](https://labex.io/ja/labs/deny-workload-access-to-node-metadata-663913?course=cks-prep)         |
+|        5 | 🧩  Kubernetes バイナリの検証                         | 初級    | [ラボを開始](https://labex.io/ja/labs/verify-kubernetes-binaries-663948?course=cks-prep)                    |
+|        6 | 🧩  kube-bench を使用した CIS ベンチマーク結果のレビュー         | 初級    | [ラボを開始](https://labex.io/ja/labs/review-cis-findings-with-kube-bench-663940?course=cks-prep)           |
+|        7 | 🧩  アドミッションと Pod セキュリティの準備状況の確認                | 初級    | [ラボを開始](https://labex.io/ja/labs/check-admission-and-pod-security-readiness-663910?course=cks-prep)    |
+
+#### Cluster Hardening
+
+|   インデックス | 名前                                      | 難易度   | 練習                                                                                                   |
+|----------|-----------------------------------------|-------|------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  ロールの権限を最小化する                         | 初級    | [ラボを開始](https://labex.io/ja/labs/minimize-a-role-s-permissions-663930?course=cks-prep)               |
+|        2 | 🧩  過剰な権限を持つ ClusterRoleBinding の削減      | 初級    | [ラボを開始](https://labex.io/ja/labs/reduce-an-overprivileged-clusterrolebinding-663934?course=cks-prep) |
+|        3 | 🧩  デフォルトの ServiceAccount トークンマウントを無効化する | 初級    | [ラボを開始](https://labex.io/ja/labs/disable-default-serviceaccount-token-mounts-663917?course=cks-prep) |
+|        4 | 🧩  ネームスペーススコープのオペレーターロールの設定             | 初級    | [ラボを開始](https://labex.io/ja/labs/scope-a-namespace-operator-role-663947?course=cks-prep)             |
+|        5 | 🧩  API サーバープロキシ昇格のブロック                  | 初級    | [ラボを開始](https://labex.io/ja/labs/block-api-server-proxy-escalation-663908?course=cks-prep)           |
+|        6 | 🧩  漏洩した ServiceAccount トークンの封じ込め        | 初級    | [ラボを開始](https://labex.io/ja/labs/contain-a-leaked-serviceaccount-token-663912?course=cks-prep)       |
+|        7 | 🧩  機密リソースへのアクセス監査                       | 初級    | [ラボを開始](https://labex.io/ja/labs/audit-access-to-sensitive-resources-663907?course=cks-prep)         |
+
+#### System and Node Hardening
+
+|   インデックス | 名前                                   | 難易度   | 練習                                                                                                         |
+|----------|--------------------------------------|-------|------------------------------------------------------------------------------------------------------------|
+|        1 | 🧩  ホストの攻撃対象領域を安全に調査する                | 初級    | [ラボを開始](https://labex.io/ja/labs/inspect-host-attack-surface-safely-663923?course=cks-prep)                |
+|        2 | 🧩  ホストデバッグサービスの無効化                   | 初級    | [ラボを開始](https://labex.io/ja/labs/disable-a-host-debug-service-663916?course=cks-prep)                      |
+|        3 | 🧩  kubelet の公開状況のレビュー                | 初級    | [ラボを開始](https://labex.io/ja/labs/review-kubelet-exposure-663941?course=cks-prep)                           |
+|        4 | 🧩  ワークロードにおける AppArmor プロファイル適用状況の確認 | 初級    | [ラボを開始](https://labex.io/ja/labs/review-apparmor-profile-enforcement-on-a-workload-663919?course=cks-prep) |
+|        5 | 🧩  ローカル seccomp プロファイルのインストール        | 初級    | [ラボを開始](https://labex.io/ja/labs/install-a-local-seccomp-profile-663926?course=cks-prep)                   |
+|        6 | 🧩  ワークロードから hostPath アクセスを削除する       | 初級    | [ラボを開始](https://labex.io/ja/labs/remove-hostpath-access-from-a-workload-663936?course=cks-prep)            |
+
+#### Workload and Microservice Security
+
+|   インデックス | 名前                           | 難易度   | 練習                                                                                                |
+|----------|------------------------------|-------|---------------------------------------------------------------------------------------------------|
+|        1 | 🧩  Pod セキュリティコンテキストの強化       | 初級    | [ラボを開始](https://labex.io/ja/labs/harden-a-pod-security-context-663922?course=cks-prep)            |
+|        2 | 🧩  Linux Capabilities の削除    | 初級    | [ラボを開始](https://labex.io/ja/labs/drop-linux-capabilities-663918?course=cks-prep)                  |
+|        3 | 🧩  コンテナを非ルート（Non-Root）で実行する  | 初級    | [ラボを開始](https://labex.io/ja/labs/run-containers-as-non-root-663944?course=cks-prep)               |
+|        4 | 🧩  プロジェクテッドファイルによるシークレットの保護  | 初級    | [ラボを開始](https://labex.io/ja/labs/protect-secrets-with-projected-files-663931?course=cks-prep)     |
+|        5 | 🧩  アプリケーションシークレットのローテーションと制限 | 初級    | [ラボを開始](https://labex.io/ja/labs/rotate-and-constrain-application-secrets-663943?course=cks-prep) |
+|        6 | 🧩  リスクのあるサイドカーの境界を分離する       | 初級    | [ラボを開始](https://labex.io/ja/labs/isolate-a-risky-sidecar-boundary-663928?course=cks-prep)         |
+|        7 | 🧩  イミュータブル（不変）なランタイムコンテナの強制  | 初級    | [ラボを開始](https://labex.io/ja/labs/enforce-immutable-runtime-containers-663920?course=cks-prep)     |
+|        8 | 🧩  疑わしいワークロードの隔離             | 初級    | [ラボを開始](https://labex.io/ja/labs/quarantine-a-suspicious-workload-663933?course=cks-prep)         |
+
+#### Supply Chain Security
+
+|   インデックス | 名前                                    | 難易度   | 練習                                                                                                |
+|----------|---------------------------------------|-------|---------------------------------------------------------------------------------------------------|
+|        1 | 🧩  最小限の承認済みイメージの構築                    | 初級    | [ラボを開始](https://labex.io/ja/labs/build-a-minimal-approved-image-663909?course=cks-prep)           |
+|        2 | 🧩  kube-linter を使用したワークロードマニフェストのスキャン | 初級    | [ラボを開始](https://labex.io/ja/labs/scan-workload-manifests-with-kube-linter-663946?course=cks-prep) |
+|        3 | 🧩  kube-linter を使用した Helm 出力のスキャン     | 初級    | [ラボを開始](https://labex.io/ja/labs/scan-helm-output-with-kube-linter-663945?course=cks-prep)        |
+|        4 | 🧩  SBOM とチェックサムの証拠を検証する               | 初級    | [ラボを開始](https://labex.io/ja/labs/verify-sbom-and-checksum-evidence-663949?course=cks-prep)        |
+|        5 | 🧩  信頼できるイメージレジストリの強制                  | 初級    | [ラボを開始](https://labex.io/ja/labs/enforce-trusted-image-registries-663921?course=cks-prep)         |
+|        6 | 🧩  イメージからビルドシークレットを削除する               | 初級    | [ラボを開始](https://labex.io/ja/labs/remove-build-secrets-from-an-image-663935?course=cks-prep)       |
+
+#### Monitoring, Audit, and Runtime Security
+
+|   インデックス | 名前                           | 難易度   | 練習                                                                                             |
+|----------|------------------------------|-------|------------------------------------------------------------------------------------------------|
+|        1 | 🧩  シークレットアクセスに関する監査イベントのレビュー | 初級    | [ラボを開始](https://labex.io/ja/labs/review-audit-events-for-secret-access-663939?course=cks-prep) |
+|        2 | 🧩  不正な API アクティビティの調査        | 初級    | [ラボを開始](https://labex.io/ja/labs/investigate-unauthorized-api-activity-663927?course=cks-prep) |
+|        3 | 🧩  不審なランタイムプロセスの検出           | 初級    | [ラボを開始](https://labex.io/ja/labs/detect-suspicious-runtime-processes-663915?course=cks-prep)   |
+|        4 | 🧩  ランタイムファイルのドリフト検知          | 初級    | [ラボを開始](https://labex.io/ja/labs/detect-runtime-file-drift-663914?course=cks-prep)             |
+|        5 | 🧩  監査証跡からのポリシー復元             | 初級    | [ラボを開始](https://labex.io/ja/labs/restore-policy-from-audit-evidence-663937?course=cks-prep)    |
+
+### 2. [CKS 模擬試験 01](https://labex.io/ja/courses/cks-practice-exam-01)
 
 クラスターのセットアップ、クラスターの強化、システムの強化、マイクロサービスの脆弱性軽減、サプライチェーンセキュリティ、ランタイムセキュリティを網羅した、20 の独立した Kubernetes セキュリティ課題に取り組む実践的な CKS 模擬試験です。
 
@@ -72,7 +158,7 @@ Certified Kubernetes Security Specialist（CKS）試験に向けた、体系的�
 |        3 | 🎯  イミュータブル（不変）なランタイムコンテナの強制  | 初級    | [チャレンジを開始](https://labex.io/ja/labs/enforce-immutable-runtime-containers-663180?course=cks-practice-exam-01)  |
 |        4 | 🎯  不正な API アクティビティの調査        | 初級    | [チャレンジを開始](https://labex.io/ja/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
-### 2. [CKS 模擬試験 02](https://labex.io/ja/courses/cks-practice-exam-02)
+### 3. [CKS 模擬試験 02](https://labex.io/ja/courses/cks-practice-exam-02)
 
 CKS 試験の全範囲を網羅した、実践的なセキュリティシナリオに基づく 20 問の Kubernetes セキュリティ課題で構成される、独立した第 2 回模擬試験です。
 
