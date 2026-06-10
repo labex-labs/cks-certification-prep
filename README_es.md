@@ -1,8 +1,8 @@
-# Formación CKS Ruta de Preparación para Certificación
+# Formación CKS Certification Prep Path
 
 ## Idiomas
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/es/learn/cks"><img width="128px" src="https://file.labex.io/path/dzeGx0xsrUuR.png"></a>
@@ -12,7 +12,7 @@
 
 Prepárate para el examen Certified Kubernetes Security Specialist (CKS) con una ruta de aprendizaje estructurada y práctica. Este plan se centra en endurecimiento de clústeres, endurecimiento del sistema, minimización de vulnerabilidades en microservicios, seguridad de la cadena de suministro, y monitorización, registro y seguridad en tiempo de ejecución en Kubernetes, tareas basadas en rendimiento al estilo CKS y escenarios reales. Los cursos CKS, laboratorios y exámenes simulados se irán incorporando para reforzar habilidades alineadas con los objetivos CKS.
 
-**Cursos**: 3 · **Labs**: 85
+**Cursos**: 3 · **Laboratorios**: 85
 
 ## Cursos
 
@@ -20,9 +20,9 @@ Prepárate para el examen Certified Kubernetes Security Specialist (CKS) con una
 
 Un curso de preparación para CKS ideal para principiantes, que incluye 45 experimentos guiados de seguridad en Kubernetes, organizados desde los fundamentos de seguridad hasta la configuración de clústeres, endurecimiento, seguridad de cargas de trabajo, cadena de suministro, auditoría e investigación en tiempo de ejecución.
 
-[Iniciar Curso](https://labex.io/es/courses/cks-prep) · Labs: 45
+[Iniciar Curso](https://labex.io/es/courses/cks-prep) · Laboratorios: 45
 
-#### Security Foundations for Kubernetes
+#### Fundamentos de seguridad para Kubernetes
 
 |   Índice | Nombre                                                            | Dificultad   | Práctica                                                                                                      |
 |----------|-------------------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 |        5 | 🧩  Inspeccionar el comportamiento de los tokens de ServiceAccount | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/inspect-serviceaccount-token-behavior-663925?course=cks-prep)  |
 |        6 | 🧩  Aplicar estándares de seguridad de Pods                        | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/apply-pod-security-standards-663906?course=cks-prep)           |
 
-#### Cluster Setup Security
+#### Seguridad en la configuración del clúster
 
 |   Índice | Nombre                                                                       | Dificultad   | Práctica                                                                                                             |
 |----------|------------------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 |        6 | 🧩  Revisar hallazgos de CIS con kube-bench                                   | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/review-cis-findings-with-kube-bench-663940?course=cks-prep)           |
 |        7 | 🧩  Verificar la preparación de la admisión y la seguridad de los Pods        | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/check-admission-and-pod-security-readiness-663910?course=cks-prep)    |
 
-#### Cluster Hardening
+#### Endurecimiento del clúster
 
 |   Índice | Nombre                                                               | Dificultad   | Práctica                                                                                                           |
 |----------|----------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 |        6 | 🧩  Contener un token de ServiceAccount filtrado                      | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/contain-a-leaked-serviceaccount-token-663912?course=cks-prep)       |
 |        7 | 🧩  Auditar el acceso a recursos confidenciales                       | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/audit-access-to-sensitive-resources-663907?course=cks-prep)         |
 
-#### System and Node Hardening
+#### Endurecimiento del sistema y de los nodos
 
 |   Índice | Nombre                                                                   | Dificultad   | Práctica                                                                                                                 |
 |----------|--------------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 |        5 | 🧩  Instalar un perfil de seccomp local                                   | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/install-a-local-seccomp-profile-663926?course=cks-prep)                   |
 |        6 | 🧩  Eliminar el acceso hostPath de una carga de trabajo                   | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/remove-hostpath-access-from-a-workload-663936?course=cks-prep)            |
 
-#### Workload and Microservice Security
+#### Seguridad de cargas de trabajo y microservicios
 
 |   Índice | Nombre                                                    | Dificultad   | Práctica                                                                                                        |
 |----------|-----------------------------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 |        7 | 🧩  Aplicar contenedores de tiempo de ejecución inmutables | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/enforce-immutable-runtime-containers-663920?course=cks-prep)     |
 |        8 | 🧩  Poner en cuarentena una carga de trabajo sospechosa    | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/quarantine-a-suspicious-workload-663933?course=cks-prep)         |
 
-#### Supply Chain Security
+#### Seguridad de la cadena de suministro
 
 |   Índice | Nombre                                                      | Dificultad   | Práctica                                                                                                        |
 |----------|-------------------------------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 |        5 | 🧩  Aplicar registros de imágenes de confianza               | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/enforce-trusted-image-registries-663921?course=cks-prep)         |
 |        6 | 🧩  Eliminar secretos de compilación de una imagen           | Principiante | [Iniciar Laboratorio](https://labex.io/es/labs/remove-build-secrets-from-an-image-663935?course=cks-prep)       |
 
-#### Monitoring, Audit, and Runtime Security
+#### Monitoreo, auditoría y seguridad en tiempo de ejecución
 
 |   Índice | Nombre                                                       | Dificultad   | Práctica                                                                                                     |
 |----------|--------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------|
@@ -106,9 +106,9 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 
 Un examen de práctica práctico de CKS con 20 desafíos independientes de seguridad de Kubernetes que cubren la configuración del clúster, el endurecimiento del clúster, el endurecimiento del sistema, la reducción de vulnerabilidades en microservicios, la seguridad de la cadena de suministro y la seguridad en tiempo de ejecución.
 
-[Iniciar Curso](https://labex.io/es/courses/cks-practice-exam-01) · Labs: 20
+[Iniciar Curso](https://labex.io/es/courses/cks-practice-exam-01) · Laboratorios: 20
 
-#### Cluster Setup
+#### Configuración del clúster
 
 |   Índice | Nombre                                                         | Dificultad   | Práctica                                                                                                                     |
 |----------|----------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Un examen de práctica práctico de CKS con 20 desafíos independientes de segur
 |        2 | 🎯  Publicar una consola de administración con Ingress TLS      | Principiante | [Iniciar Desafío](https://labex.io/es/labs/publish-an-admin-console-with-tls-ingress-663189?course=cks-practice-exam-01)     |
 |        3 | 🎯  Verificar binarios de Kubernetes antes de la implementación | Principiante | [Iniciar Desafío](https://labex.io/es/labs/verify-kubernetes-binaries-before-deployment-663194?course=cks-practice-exam-01)  |
 
-#### Cluster Hardening
+#### Fortalecimiento del clúster
 
 |   Índice | Nombre                                                                        | Dificultad   | Práctica                                                                                                                   |
 |----------|-------------------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------|
@@ -124,14 +124,14 @@ Un examen de práctica práctico de CKS con 20 desafíos independientes de segur
 |        2 | 🎯  Deshabilitar el montaje automático de tokens de ServiceAccount por defecto | Principiante | [Iniciar Desafío](https://labex.io/es/labs/disable-default-serviceaccount-token-mounts-663178?course=cks-practice-exam-01) |
 |        3 | 🎯  Limitar el acceso a la API del lector de incidentes                        | Principiante | [Iniciar Desafío](https://labex.io/es/labs/limit-incident-reader-api-access-663186?course=cks-practice-exam-01)            |
 
-#### System Hardening
+#### Fortalecimiento del sistema
 
 |   Índice | Nombre                                                  | Dificultad   | Práctica                                                                                                                 |
 |----------|---------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------|
 |        1 | 🎯  Aplicar un perfil de AppArmor a una carga de trabajo | Principiante | [Iniciar Desafío](https://labex.io/es/labs/enforce-an-apparmor-profile-on-a-workload-663179?course=cks-practice-exam-01) |
 |        2 | 🎯  Instalar un perfil de Seccomp local                  | Principiante | [Iniciar Desafío](https://labex.io/es/labs/install-a-local-seccomp-profile-663183?course=cks-practice-exam-01)           |
 
-#### Minimize Microservice Vulnerabilities
+#### Minimización de vulnerabilidades en microservicios
 
 |   Índice | Nombre                                                       | Dificultad   | Práctica                                                                                                            |
 |----------|--------------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Un examen de práctica práctico de CKS con 20 desafíos independientes de segur
 |        3 | 🎯  Endurecer un contexto de seguridad en tiempo de ejecución | Principiante | [Iniciar Desafío](https://labex.io/es/labs/harden-a-runtime-security-context-663182?course=cks-practice-exam-01)    |
 |        4 | 🎯  Aislar un límite de sidecar de riesgo                     | Principiante | [Iniciar Desafío](https://labex.io/es/labs/isolate-a-risky-sidecar-boundary-663185?course=cks-practice-exam-01)     |
 
-#### Supply Chain Security
+#### Seguridad de la cadena de suministro
 
 |   Índice | Nombre                                                                | Dificultad   | Práctica                                                                                                               |
 |----------|-----------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Un examen de práctica práctico de CKS con 20 desafíos independientes de segur
 |        3 | 🎯  Analizar manifiestos de carga de trabajo con KubeLinter            | Principiante | [Iniciar Desafío](https://labex.io/es/labs/scan-workload-manifests-with-kubelinter-663193?course=cks-practice-exam-01) |
 |        4 | 🎯  Anclar cargas de trabajo a resúmenes (digests) de imagen aprobados | Principiante | [Iniciar Desafío](https://labex.io/es/labs/pin-workloads-to-approved-image-digests-663187?course=cks-practice-exam-01) |
 
-#### Monitoring, Logging and Runtime Security
+#### Monitoreo, registro y seguridad en tiempo de ejecución
 
 |   Índice | Nombre                                                    | Dificultad   | Práctica                                                                                                             |
 |----------|-----------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------|
@@ -162,9 +162,9 @@ Un examen de práctica práctico de CKS con 20 desafíos independientes de segur
 
 Un segundo examen de práctica independiente al estilo CKS con 20 desafíos de seguridad de Kubernetes que cubren los dominios públicos de CKS a través de diferentes escenarios de seguridad operativa.
 
-[Iniciar Curso](https://labex.io/es/courses/cks-practice-exam-02) · Labs: 20
+[Iniciar Curso](https://labex.io/es/courses/cks-practice-exam-02) · Laboratorios: 20
 
-#### Cluster Setup
+#### Configuración del clúster
 
 |   Índice | Nombre                                                               | Dificultad   | Práctica                                                                                                                |
 |----------|----------------------------------------------------------------------|--------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Un segundo examen de práctica independiente al estilo CKS con 20 desafíos de s
 |        2 | 🎯  Revisar hallazgos CIS para exposición de Kubelet                  | Principiante | [Iniciar Desafío](https://labex.io/es/labs/review-cis-findings-for-kubelet-exposure-663211?course=cks-practice-exam-02) |
 |        3 | 🎯  Reemitir TLS para una ruta Ingress dividida                       | Principiante | [Iniciar Desafío](https://labex.io/es/labs/reissue-tls-for-a-split-ingress-route-663206?course=cks-practice-exam-02)    |
 
-#### Cluster Hardening
+#### Fortalecimiento del clúster
 
 |   Índice | Nombre                                                                      | Dificultad   | Práctica                                                                                                             |
 |----------|-----------------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------|
@@ -180,14 +180,14 @@ Un segundo examen de práctica independiente al estilo CKS con 20 desafíos de s
 |        2 | 🎯  Contener un token de ServiceAccount filtrado                             | Principiante | [Iniciar Desafío](https://labex.io/es/labs/contain-a-leaked-serviceaccount-token-663199?course=cks-practice-exam-02) |
 |        3 | 🎯  Bloqueo de la escalada de privilegios mediante el proxy del servidor API | Principiante | [Iniciar Desafío](https://labex.io/es/labs/block-api-server-proxy-escalation-663197?course=cks-practice-exam-02)     |
 
-#### System Hardening
+#### Fortalecimiento del sistema
 
 |   Índice | Nombre                                                          | Dificultad   | Práctica                                                                                                               |
 |----------|-----------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------|
 |        1 | 🎯  Deshabilitar un servicio de depuración del host              | Principiante | [Iniciar Desafío](https://labex.io/es/labs/disable-a-host-debug-service-663202?course=cks-practice-exam-02)            |
 |        2 | 🎯  Restringir los permisos del recolector de registros del host | Principiante | [Iniciar Desafío](https://labex.io/es/labs/restrict-host-log-collector-permissions-663210?course=cks-practice-exam-02) |
 
-#### Minimize Microservice Vulnerabilities
+#### Minimización de vulnerabilidades en microservicios
 
 |   Índice | Nombre                                                            | Dificultad   | Práctica                                                                                                                 |
 |----------|-------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Un segundo examen de práctica independiente al estilo CKS con 20 desafíos de s
 |        3 | 🎯  Aislar la salida (egress) del inquilino con excepciones de DNS | Principiante | [Iniciar Desafío](https://labex.io/es/labs/isolate-tenant-egress-with-dns-exceptions-663204?course=cks-practice-exam-02) |
 |        4 | 🎯  Eliminar la caché de tipo HostPath de un Pod web               | Principiante | [Iniciar Desafío](https://labex.io/es/labs/remove-hostpath-cache-from-a-web-pod-663208?course=cks-practice-exam-02)      |
 
-#### Supply Chain Security
+#### Seguridad de la cadena de suministro
 
 |   Índice | Nombre                                            | Dificultad   | Práctica                                                                                                          |
 |----------|---------------------------------------------------|--------------|-------------------------------------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ Un segundo examen de práctica independiente al estilo CKS con 20 desafíos de s
 |        3 | 🎯  Eliminar secretos de compilación de una imagen | Principiante | [Iniciar Desafío](https://labex.io/es/labs/remove-build-secrets-from-an-image-663207?course=cks-practice-exam-02) |
 |        4 | 🎯  Analizar la salida de Helm con KubeLinter      | Principiante | [Iniciar Desafío](https://labex.io/es/labs/scan-helm-output-with-kubelinter-663213?course=cks-practice-exam-02)   |
 
-#### Monitoring, Logging and Runtime Security
+#### Monitoreo, registro y seguridad en tiempo de ejecución
 
 |   Índice | Nombre                                                    | Dificultad   | Práctica                                                                                                          |
 |----------|-----------------------------------------------------------|--------------|-------------------------------------------------------------------------------------------------------------------|
