@@ -2,7 +2,7 @@
 
 ## Languages
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/learn/cks"><img width="128px" src="https://file.labex.io/path/dzeGx0xsrUuR.png"></a>
@@ -18,7 +18,7 @@ Prepare for the Certified Kubernetes Security Specialist (CKS) exam with a struc
 
 ### 1. [CKS Prep](https://labex.io/courses/cks-prep)
 
-A beginner-friendly CKS preparation course with 45 guided Kubernetes security labs arranged from security foundations to cluster setup, hardening, workload security, supply chain, audit, and runtime investigation.
+A guided Certified Kubernetes Security Specialist (CKS) preparation course with 45 Kubernetes security labs arranged from security foundations to cluster setup, hardening, workload security, supply chain, audit, and runtime investigation.
 
 [Start Course](https://labex.io/courses/cks-prep) · Labs: 45
 
