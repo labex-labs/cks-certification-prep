@@ -18,6 +18,8 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 
 ### 1. [CKS 준비 과정](https://labex.io/ko/courses/cks-prep)
 
+[![CKS 준비 과정](https://course-cover.labex.io/cks-prep.png?lang=ko)](https://labex.io/ko/courses/cks-prep)
+
 보안 기초부터 클러스터 설정, 강화, 워크로드 보안, 공급망, 감사, 런타임 조사까지 총 45 개의 가이드형 Kubernetes 보안 실습으로 구성된 초보자 맞춤형 CKS 준비 과정입니다.
 
 [코스 시작](https://labex.io/ko/courses/cks-prep) · 실습: 45
@@ -104,6 +106,8 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 
 ### 2. [CKS 실전 모의고사 01](https://labex.io/ko/courses/cks-practice-exam-01)
 
+[![CKS 실전 모의고사 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=ko)](https://labex.io/ko/courses/cks-practice-exam-01)
+
 클러스터 설정, 클러스터 강화, 시스템 강화, 마이크로서비스 취약점 감소, 공급망 보안 및 런타임 보안을 아우르는 20 개의 독립적인 Kubernetes 보안 챌린지로 구성된 실습형 CKS 모의고사입니다.
 
 [코스 시작](https://labex.io/ko/courses/cks-practice-exam-01) · 실습: 20
@@ -159,6 +163,8 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     4 | 🎯  비인가 API 활동 조사                   | 초급    | [도전 시작](https://labex.io/ko/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [CKS 실전 모의고사 02](https://labex.io/ko/courses/cks-practice-exam-02)
+
+[![CKS 실전 모의고사 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=ko)](https://labex.io/ko/courses/cks-practice-exam-02)
 
 공식 CKS 시험 범위를 포괄하는 다양한 운영 보안 시나리오를 바탕으로, 20 개의 쿠버네티스 보안 챌린지로 구성된 두 번째 독립형 CKS 실전 모의고사입니다.
 
