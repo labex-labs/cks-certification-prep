@@ -1,8 +1,8 @@
-# CKS 培训 认证备考路径
+# CKS 培训 Certification Prep Path
 
 ## 支持语言
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/zh/learn/cks"><img width="128px" src="https://file.labex.io/path/dzeGx0xsrUuR.png"></a>
@@ -22,7 +22,7 @@
 
 [开始课程](https://labex.io/zh/courses/cks-prep) · 实验: 45
 
-#### Security Foundations for Kubernetes
+#### Kubernetes 安全基础
 
 |   序号 | 名称                            | 难度   | 练习                                                                                             |
 |------|-------------------------------|------|------------------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@
 |    5 | 🧩  检查 ServiceAccount Token 行为 | 初级   | [开始实验](https://labex.io/zh/labs/inspect-serviceaccount-token-behavior-663925?course=cks-prep)  |
 |    6 | 🧩  应用 Pod 安全标准                | 初级   | [开始实验](https://labex.io/zh/labs/apply-pod-security-standards-663906?course=cks-prep)           |
 
-#### Cluster Setup Security
+#### 集群配置安全
 
 |   序号 | 名称                             | 难度   | 练习                                                                                                    |
 |------|--------------------------------|------|-------------------------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@
 |    6 | 🧩  使用 kube-bench 审查 CIS 安全基准发现 | 初级   | [开始实验](https://labex.io/zh/labs/review-cis-findings-with-kube-bench-663940?course=cks-prep)           |
 |    7 | 🧩  检查准入与 Pod 安全就绪状态            | 初级   | [开始实验](https://labex.io/zh/labs/check-admission-and-pod-security-readiness-663910?course=cks-prep)    |
 
-#### Cluster Hardening
+#### 集群加固
 
 |   序号 | 名称                            | 难度   | 练习                                                                                                  |
 |------|-------------------------------|------|-----------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@
 |    6 | 🧩  包含泄露的 ServiceAccount 令牌    | 初级   | [开始实验](https://labex.io/zh/labs/contain-a-leaked-serviceaccount-token-663912?course=cks-prep)       |
 |    7 | 🧩  审计敏感资源访问权限                 | 初级   | [开始实验](https://labex.io/zh/labs/audit-access-to-sensitive-resources-663907?course=cks-prep)         |
 
-#### System and Node Hardening
+#### 系统与节点加固
 
 |   序号 | 名称                             | 难度   | 练习                                                                                                        |
 |------|--------------------------------|------|-----------------------------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@
 |    5 | 🧩  安装本地 seccomp 配置文件           | 初级   | [开始实验](https://labex.io/zh/labs/install-a-local-seccomp-profile-663926?course=cks-prep)                   |
 |    6 | 🧩  移除工作负载的 HostPath 访问权限       | 初级   | [开始实验](https://labex.io/zh/labs/remove-hostpath-access-from-a-workload-663936?course=cks-prep)            |
 
-#### Workload and Microservice Security
+#### 工作负载与微服务安全
 
 |   序号 | 名称                       | 难度   | 练习                                                                                               |
 |------|--------------------------|------|--------------------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@
 |    7 | 🧩  强制执行不可变运行时容器          | 初级   | [开始实验](https://labex.io/zh/labs/enforce-immutable-runtime-containers-663920?course=cks-prep)     |
 |    8 | 🧩  隔离可疑工作负载              | 初级   | [开始实验](https://labex.io/zh/labs/quarantine-a-suspicious-workload-663933?course=cks-prep)         |
 
-#### Supply Chain Security
+#### 供应链安全
 
 |   序号 | 名称                           | 难度   | 练习                                                                                               |
 |------|------------------------------|------|--------------------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@
 |    5 | 🧩  强制执行受信任的镜像仓库              | 初级   | [开始实验](https://labex.io/zh/labs/enforce-trusted-image-registries-663921?course=cks-prep)         |
 |    6 | 🧩  从镜像中移除构建密钥                | 初级   | [开始实验](https://labex.io/zh/labs/remove-build-secrets-from-an-image-663935?course=cks-prep)       |
 
-#### Monitoring, Audit, and Runtime Security
+#### 监控、审计与运行时安全
 
 |   序号 | 名称                   | 难度   | 练习                                                                                            |
 |------|----------------------|------|-----------------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@
 
 [开始课程](https://labex.io/zh/courses/cks-practice-exam-01) · 实验: 20
 
-#### Cluster Setup
+#### 集群搭建
 
 |   序号 | 名称                           | 难度   | 练习                                                                                                                |
 |------|------------------------------|------|-------------------------------------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@
 |    2 | 🎯  使用 TLS Ingress 发布管理控制台    | 初级   | [开始挑战](https://labex.io/zh/labs/publish-an-admin-console-with-tls-ingress-663189?course=cks-practice-exam-01)     |
 |    3 | 🎯  部署前验证 Kubernetes 二进制文件    | 初级   | [开始挑战](https://labex.io/zh/labs/verify-kubernetes-binaries-before-deployment-663194?course=cks-practice-exam-01)  |
 
-#### Cluster Hardening
+#### 集群加固
 
 |   序号 | 名称                             | 难度   | 练习                                                                                                              |
 |------|--------------------------------|------|-----------------------------------------------------------------------------------------------------------------|
@@ -124,14 +124,14 @@
 |    2 | 🎯  禁用默认 ServiceAccount 令牌挂载    | 初级   | [开始挑战](https://labex.io/zh/labs/disable-default-serviceaccount-token-mounts-663178?course=cks-practice-exam-01) |
 |    3 | 🎯  限制 Incident Reader API 访问权限 | 初级   | [开始挑战](https://labex.io/zh/labs/limit-incident-reader-api-access-663186?course=cks-practice-exam-01)            |
 
-#### System Hardening
+#### 系统加固
 
 |   序号 | 名称                          | 难度   | 练习                                                                                                            |
 |------|-----------------------------|------|---------------------------------------------------------------------------------------------------------------|
 |    1 | 🎯  在工作负载上强制执行 AppArmor 配置文件 | 初级   | [开始挑战](https://labex.io/zh/labs/enforce-an-apparmor-profile-on-a-workload-663179?course=cks-practice-exam-01) |
 |    2 | 🎯  安装本地 Seccomp 配置文件        | 初级   | [开始挑战](https://labex.io/zh/labs/install-a-local-seccomp-profile-663183?course=cks-practice-exam-01)           |
 
-#### Minimize Microservice Vulnerabilities
+#### 微服务漏洞最小化
 
 |   序号 | 名称                  | 难度   | 练习                                                                                                       |
 |------|---------------------|------|----------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@
 |    3 | 🎯  加固运行时安全上下文       | 初级   | [开始挑战](https://labex.io/zh/labs/harden-a-runtime-security-context-663182?course=cks-practice-exam-01)    |
 |    4 | 🎯  隔离高风险 Sidecar 边界 | 初级   | [开始挑战](https://labex.io/zh/labs/isolate-a-risky-sidecar-boundary-663185?course=cks-practice-exam-01)     |
 
-#### Supply Chain Security
+#### 供应链安全
 
 |   序号 | 名称                        | 难度   | 练习                                                                                                          |
 |------|---------------------------|------|-------------------------------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@
 |    3 | 🎯  使用 KubeLinter 扫描工作负载清单 | 初级   | [开始挑战](https://labex.io/zh/labs/scan-workload-manifests-with-kubelinter-663193?course=cks-practice-exam-01) |
 |    4 | 🎯  将工作负载固定为已批准的镜像摘要       | 初级   | [开始挑战](https://labex.io/zh/labs/pin-workloads-to-approved-image-digests-663187?course=cks-practice-exam-01) |
 
-#### Monitoring, Logging and Runtime Security
+#### 监控、日志与运行时安全
 
 |   序号 | 名称                   | 难度   | 练习                                                                                                        |
 |------|----------------------|------|-----------------------------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@
 
 [开始课程](https://labex.io/zh/courses/cks-practice-exam-02) · 实验: 20
 
-#### Cluster Setup
+#### 集群搭建
 
 |   序号 | 名称                         | 难度   | 练习                                                                                                           |
 |------|----------------------------|------|--------------------------------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@
 |    2 | 🎯  审查 Kubelet 暴露的 CIS 调查结果 | 初级   | [开始挑战](https://labex.io/zh/labs/review-cis-findings-for-kubelet-exposure-663211?course=cks-practice-exam-02) |
 |    3 | 🎯  为拆分式 Ingress 路由重新签发 TLS | 初级   | [开始挑战](https://labex.io/zh/labs/reissue-tls-for-a-split-ingress-route-663206?course=cks-practice-exam-02)    |
 
-#### Cluster Hardening
+#### 集群加固
 
 |   序号 | 名称                         | 难度   | 练习                                                                                                        |
 |------|----------------------------|------|-----------------------------------------------------------------------------------------------------------|
@@ -180,14 +180,14 @@
 |    2 | 🎯  包含泄露的 ServiceAccount 令牌 | 初级   | [开始挑战](https://labex.io/zh/labs/contain-a-leaked-serviceaccount-token-663199?course=cks-practice-exam-02) |
 |    3 | 🎯  拦截 API Server 代理提权      | 初级   | [开始挑战](https://labex.io/zh/labs/block-api-server-proxy-escalation-663197?course=cks-practice-exam-02)     |
 
-#### System Hardening
+#### 系统加固
 
 |   序号 | 名称             | 难度   | 练习                                                                                                          |
 |------|----------------|------|-------------------------------------------------------------------------------------------------------------|
 |    1 | 🎯  禁用主机调试服务    | 初级   | [开始挑战](https://labex.io/zh/labs/disable-a-host-debug-service-663202?course=cks-practice-exam-02)            |
 |    2 | 🎯  限制主机日志收集器权限 | 初级   | [开始挑战](https://labex.io/zh/labs/restrict-host-log-collector-permissions-663210?course=cks-practice-exam-02) |
 
-#### Minimize Microservice Vulnerabilities
+#### 微服务漏洞最小化
 
 |   序号 | 名称                           | 难度   | 练习                                                                                                            |
 |------|------------------------------|------|---------------------------------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@
 |    3 | 🎯  使用 DNS 例外隔离租户出口流量         | 初级   | [开始挑战](https://labex.io/zh/labs/isolate-tenant-egress-with-dns-exceptions-663204?course=cks-practice-exam-02) |
 |    4 | 🎯  从 Web Pod 中移除 HostPath 缓存 | 初级   | [开始挑战](https://labex.io/zh/labs/remove-hostpath-cache-from-a-web-pod-663208?course=cks-practice-exam-02)      |
 
-#### Supply Chain Security
+#### 供应链安全
 
 |   序号 | 名称                          | 难度   | 练习                                                                                                     |
 |------|-----------------------------|------|--------------------------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@
 |    3 | 🎯  从镜像中移除构建机密               | 初级   | [开始挑战](https://labex.io/zh/labs/remove-build-secrets-from-an-image-663207?course=cks-practice-exam-02) |
 |    4 | 🎯  使用 KubeLinter 扫描 Helm 输出 | 初级   | [开始挑战](https://labex.io/zh/labs/scan-helm-output-with-kubelinter-663213?course=cks-practice-exam-02)   |
 
-#### Monitoring, Logging and Runtime Security
+#### 监控、日志与运行时安全
 
 |   序号 | 名称            | 难度   | 练习                                                                                                     |
 |------|---------------|------|--------------------------------------------------------------------------------------------------------|
