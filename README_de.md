@@ -18,6 +18,8 @@ Bereiten Sie sich mit einem strukturierten, praxisorientierten Lernpfad auf die 
 
 ### 1. [CKS-Vorbereitung](https://labex.io/de/courses/cks-prep)
 
+[![CKS-Vorbereitung](https://course-cover.labex.io/cks-prep.png?lang=de)](https://labex.io/de/courses/cks-prep)
+
 Ein einsteigerfreundlicher CKS-Vorbereitungskurs mit 45 geführten Kubernetes-Sicherheitsexperimenten, die von den Grundlagen der Sicherheit bis hin zu Cluster-Einrichtung, Härtung, Workload-Sicherheit, Lieferketten, Audits und Laufzeituntersuchungen reichen.
 
 [Kurs Starten](https://labex.io/de/courses/cks-prep) · Labs: 45
@@ -104,6 +106,8 @@ Ein einsteigerfreundlicher CKS-Vorbereitungskurs mit 45 geführten Kubernetes-Si
 
 ### 2. [CKS-Übungsprüfung 01](https://labex.io/de/courses/cks-practice-exam-01)
 
+[![CKS-Übungsprüfung 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=de)](https://labex.io/de/courses/cks-practice-exam-01)
+
 Eine praxisorientierte CKS-Übungsprüfung mit 20 unabhängigen Kubernetes-Sicherheitsherausforderungen, die die Bereiche Cluster-Einrichtung, Cluster-Härtung, System-Härtung, Reduzierung von Microservice-Schwachstellen, Supply-Chain-Sicherheit und Laufzeitsicherheit abdecken.
 
 [Kurs Starten](https://labex.io/de/courses/cks-practice-exam-01) · Labs: 20
@@ -159,6 +163,8 @@ Eine praxisorientierte CKS-Übungsprüfung mit 20 unabhängigen Kubernetes-Siche
 |       4 | 🎯  Unbefugte API-Aktivitäten untersuchen                 | Anfänger        | [Challenge Starten](https://labex.io/de/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [CKS-Übungsprüfung 02](https://labex.io/de/courses/cks-practice-exam-02)
+
+[![CKS-Übungsprüfung 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=de)](https://labex.io/de/courses/cks-practice-exam-02)
 
 Eine zweite, unabhängige CKS-Übungsprüfung mit 20 Kubernetes-Sicherheitsherausforderungen, die die offiziellen CKS-Themenbereiche anhand verschiedener operativer Sicherheitsszenarien abdeckt.
 
