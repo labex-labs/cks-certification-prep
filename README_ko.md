@@ -1,8 +1,8 @@
-# CKS 교육 인증 준비 경로
+# CKS 교육 Certification Prep Path
 
 ## 언어
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/ko/learn/cks"><img width="128px" src="https://file.labex.io/path/dzeGx0xsrUuR.png"></a>
@@ -22,7 +22,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 
 [코스 시작](https://labex.io/ko/courses/cks-prep) · 실습: 45
 
-#### Security Foundations for Kubernetes
+#### Kubernetes 보안 기초
 
 |   인덱스 | 이름                         | 난이도   | 연습                                                                                              |
 |-------|----------------------------|-------|-------------------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     5 | 🧩  ServiceAccount 토큰 동작 검사 | 초급    | [실습 시작](https://labex.io/ko/labs/inspect-serviceaccount-token-behavior-663925?course=cks-prep)  |
 |     6 | 🧩  Pod 보안 표준 적용하기          | 초급    | [실습 시작](https://labex.io/ko/labs/apply-pod-security-standards-663906?course=cks-prep)           |
 
-#### Cluster Setup Security
+#### 클러스터 설정 보안
 
 |   인덱스 | 이름                                         | 난이도   | 연습                                                                                                     |
 |-------|--------------------------------------------|-------|--------------------------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     6 | 🧩  kube-bench 를 이용한 CIS 결과 검토              | 초급    | [실습 시작](https://labex.io/ko/labs/review-cis-findings-with-kube-bench-663940?course=cks-prep)           |
 |     7 | 🧩  Admission 및 Pod 보안 준비 상태 확인             | 초급    | [실습 시작](https://labex.io/ko/labs/check-admission-and-pod-security-readiness-663910?course=cks-prep)    |
 
-#### Cluster Hardening
+#### 클러스터 강화
 
 |   인덱스 | 이름                                     | 난이도   | 연습                                                                                                   |
 |-------|----------------------------------------|-------|------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     6 | 🧩  유출된 ServiceAccount 토큰 격리            | 초급    | [실습 시작](https://labex.io/ko/labs/contain-a-leaked-serviceaccount-token-663912?course=cks-prep)       |
 |     7 | 🧩  민감한 리소스에 대한 액세스 감사                  | 초급    | [실습 시작](https://labex.io/ko/labs/audit-access-to-sensitive-resources-663907?course=cks-prep)         |
 
-#### System and Node Hardening
+#### 시스템 및 노드 강화
 
 |   인덱스 | 이름                             | 난이도   | 연습                                                                                                         |
 |-------|--------------------------------|-------|------------------------------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     5 | 🧩  로컬 seccomp 프로필 설치           | 초급    | [실습 시작](https://labex.io/ko/labs/install-a-local-seccomp-profile-663926?course=cks-prep)                   |
 |     6 | 🧩  워크로드에서 HostPath 액세스 제거      | 초급    | [실습 시작](https://labex.io/ko/labs/remove-hostpath-access-from-a-workload-663936?course=cks-prep)            |
 
-#### Workload and Microservice Security
+#### 워크로드 및 마이크로서비스 보안
 
 |   인덱스 | 이름                                         | 난이도   | 연습                                                                                                |
 |-------|--------------------------------------------|-------|---------------------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     7 | 🧩  불변 런타임 컨테이너 강제 적용                       | 초급    | [실습 시작](https://labex.io/ko/labs/enforce-immutable-runtime-containers-663920?course=cks-prep)     |
 |     8 | 🧩  의심스러운 워크로드 격리                           | 초급    | [실습 시작](https://labex.io/ko/labs/quarantine-a-suspicious-workload-663933?course=cks-prep)         |
 
-#### Supply Chain Security
+#### 공급망 보안
 
 |   인덱스 | 이름                                 | 난이도   | 연습                                                                                                |
 |-------|------------------------------------|-------|---------------------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     5 | 🧩  신뢰할 수 있는 이미지 레지스트리 강제 적용        | 초급    | [실습 시작](https://labex.io/ko/labs/enforce-trusted-image-registries-663921?course=cks-prep)         |
 |     6 | 🧩  이미지에서 빌드 시크릿 제거하기               | 초급    | [실습 시작](https://labex.io/ko/labs/remove-build-secrets-from-an-image-663935?course=cks-prep)       |
 
-#### Monitoring, Audit, and Runtime Security
+#### 모니터링, 감사 및 런타임 보안
 
 |   인덱스 | 이름                         | 난이도   | 연습                                                                                             |
 |-------|----------------------------|-------|------------------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 
 [코스 시작](https://labex.io/ko/courses/cks-practice-exam-01) · 실습: 20
 
-#### Cluster Setup
+#### 클러스터 설정
 
 |   인덱스 | 이름                                    | 난이도   | 연습                                                                                                                 |
 |-------|---------------------------------------|-------|--------------------------------------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     2 | 🎯  TLS Ingress 를 통한 관리자 콘솔 게시         | 초급    | [도전 시작](https://labex.io/ko/labs/publish-an-admin-console-with-tls-ingress-663189?course=cks-practice-exam-01)     |
 |     3 | 🎯  배포 전 Kubernetes 바이너리 검증            | 초급    | [도전 시작](https://labex.io/ko/labs/verify-kubernetes-binaries-before-deployment-663194?course=cks-practice-exam-01)  |
 
-#### Cluster Hardening
+#### 클러스터 강화
 
 |   인덱스 | 이름                                   | 난이도   | 연습                                                                                                               |
 |-------|--------------------------------------|-------|------------------------------------------------------------------------------------------------------------------|
@@ -124,14 +124,14 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     2 | 🎯  기본 ServiceAccount 토큰 마운트 비활성화     | 초급    | [도전 시작](https://labex.io/ko/labs/disable-default-serviceaccount-token-mounts-663178?course=cks-practice-exam-01) |
 |     3 | 🎯  Incident Reader API 액세스 제한        | 초급    | [도전 시작](https://labex.io/ko/labs/limit-incident-reader-api-access-663186?course=cks-practice-exam-01)            |
 
-#### System Hardening
+#### 시스템 강화
 
 |   인덱스 | 이름                         | 난이도   | 연습                                                                                                             |
 |-------|----------------------------|-------|----------------------------------------------------------------------------------------------------------------|
 |     1 | 🎯  워크로드에 AppArmor 프로필 적용하기 | 초급    | [도전 시작](https://labex.io/ko/labs/enforce-an-apparmor-profile-on-a-workload-663179?course=cks-practice-exam-01) |
 |     2 | 🎯  로컬 Seccomp 프로필 설치       | 초급    | [도전 시작](https://labex.io/ko/labs/install-a-local-seccomp-profile-663183?course=cks-practice-exam-01)           |
 
-#### Minimize Microservice Vulnerabilities
+#### 마이크로서비스 취약점 최소화
 
 |   인덱스 | 이름                                        | 난이도   | 연습                                                                                                        |
 |-------|-------------------------------------------|-------|-----------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     3 | 🎯  런타임 보안 컨텍스트 강화                         | 초급    | [도전 시작](https://labex.io/ko/labs/harden-a-runtime-security-context-663182?course=cks-practice-exam-01)    |
 |     4 | 🎯  위험한 사이드카 경계 격리                         | 초급    | [도전 시작](https://labex.io/ko/labs/isolate-a-risky-sidecar-boundary-663185?course=cks-practice-exam-01)     |
 
-#### Supply Chain Security
+#### 공급망 보안
 
 |   인덱스 | 이름                                | 난이도   | 연습                                                                                                           |
 |-------|-----------------------------------|-------|--------------------------------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     3 | 🎯  KubeLinter 를 사용한 워크로드 매니페스트 스캔 | 초급    | [도전 시작](https://labex.io/ko/labs/scan-workload-manifests-with-kubelinter-663193?course=cks-practice-exam-01) |
 |     4 | 🎯  승인된 이미지 다이제스트로 워크로드 고정         | 초급    | [도전 시작](https://labex.io/ko/labs/pin-workloads-to-approved-image-digests-663187?course=cks-practice-exam-01) |
 
-#### Monitoring, Logging and Runtime Security
+#### 모니터링, 로깅 및 런타임 보안
 
 |   인덱스 | 이름                                 | 난이도   | 연습                                                                                                         |
 |-------|------------------------------------|-------|------------------------------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 
 [코스 시작](https://labex.io/ko/courses/cks-practice-exam-02) · 실습: 20
 
-#### Cluster Setup
+#### 클러스터 설정
 
 |   인덱스 | 이름                           | 난이도   | 연습                                                                                                            |
 |-------|------------------------------|-------|---------------------------------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     2 | 🎯  Kubelet 노출에 대한 CIS 결과 검토  | 초급    | [도전 시작](https://labex.io/ko/labs/review-cis-findings-for-kubelet-exposure-663211?course=cks-practice-exam-02) |
 |     3 | 🎯  분할 Ingress 경로를 위한 TLS 재발급 | 초급    | [도전 시작](https://labex.io/ko/labs/reissue-tls-for-a-split-ingress-route-663206?course=cks-practice-exam-02)    |
 
-#### Cluster Hardening
+#### 클러스터 강화
 
 |   인덱스 | 이름                          | 난이도   | 연습                                                                                                         |
 |-------|-----------------------------|-------|------------------------------------------------------------------------------------------------------------|
@@ -180,14 +180,14 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     2 | 🎯  유출된 ServiceAccount 토큰 격리 | 초급    | [도전 시작](https://labex.io/ko/labs/contain-a-leaked-serviceaccount-token-663199?course=cks-practice-exam-02) |
 |     3 | 🎯  API 서버 프록시 권한 상승 차단      | 초급    | [도전 시작](https://labex.io/ko/labs/block-api-server-proxy-escalation-663197?course=cks-practice-exam-02)     |
 
-#### System Hardening
+#### 시스템 강화
 
 |   인덱스 | 이름                  | 난이도   | 연습                                                                                                           |
 |-------|---------------------|-------|--------------------------------------------------------------------------------------------------------------|
 |     1 | 🎯  호스트 디버그 서비스 비활성화 | 초급    | [도전 시작](https://labex.io/ko/labs/disable-a-host-debug-service-663202?course=cks-practice-exam-02)            |
 |     2 | 🎯  호스트 로그 수집기 권한 제한 | 초급    | [도전 시작](https://labex.io/ko/labs/restrict-host-log-collector-permissions-663210?course=cks-practice-exam-02) |
 
-#### Minimize Microservice Vulnerabilities
+#### 마이크로서비스 취약점 최소화
 
 |   인덱스 | 이름                                 | 난이도   | 연습                                                                                                             |
 |-------|------------------------------------|-------|----------------------------------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     3 | 🎯  DNS 예외를 통한 테넌트 이그레스 (Egress) 격리 | 초급    | [도전 시작](https://labex.io/ko/labs/isolate-tenant-egress-with-dns-exceptions-663204?course=cks-practice-exam-02) |
 |     4 | 🎯  웹 파드에서 HostPath 캐시 제거           | 초급    | [도전 시작](https://labex.io/ko/labs/remove-hostpath-cache-from-a-web-pod-663208?course=cks-practice-exam-02)      |
 
-#### Supply Chain Security
+#### 공급망 보안
 
 |   인덱스 | 이름                              | 난이도   | 연습                                                                                                      |
 |-------|---------------------------------|-------|---------------------------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ Certified Kubernetes Security Specialist(CKS) 시험을 위해 구조화된 실�
 |     3 | 🎯  이미지에서 빌드 시크릿 제거하기            | 초급    | [도전 시작](https://labex.io/ko/labs/remove-build-secrets-from-an-image-663207?course=cks-practice-exam-02) |
 |     4 | 🎯  KubeLinter 를 사용한 Helm 출력물 스캔 | 초급    | [도전 시작](https://labex.io/ko/labs/scan-helm-output-with-kubelinter-663213?course=cks-practice-exam-02)   |
 
-#### Monitoring, Logging and Runtime Security
+#### 모니터링, 로깅 및 런타임 보안
 
 |   인덱스 | 이름                        | 난이도   | 연습                                                                                                      |
 |-------|---------------------------|-------|---------------------------------------------------------------------------------------------------------|
