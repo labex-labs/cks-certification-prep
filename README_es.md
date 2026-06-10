@@ -18,6 +18,8 @@ Prepárate para el examen Certified Kubernetes Security Specialist (CKS) con una
 
 ### 1. [Preparación para CKS](https://labex.io/es/courses/cks-prep)
 
+[![Preparación para CKS](https://course-cover.labex.io/cks-prep.png?lang=es)](https://labex.io/es/courses/cks-prep)
+
 Un curso de preparación para CKS ideal para principiantes, que incluye 45 experimentos guiados de seguridad en Kubernetes, organizados desde los fundamentos de seguridad hasta la configuración de clústeres, endurecimiento, seguridad de cargas de trabajo, cadena de suministro, auditoría e investigación en tiempo de ejecución.
 
 [Iniciar Curso](https://labex.io/es/courses/cks-prep) · Laboratorios: 45
@@ -104,6 +106,8 @@ Un curso de preparación para CKS ideal para principiantes, que incluye 45 exper
 
 ### 2. [Examen de práctica CKS 01](https://labex.io/es/courses/cks-practice-exam-01)
 
+[![Examen de práctica CKS 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=es)](https://labex.io/es/courses/cks-practice-exam-01)
+
 Un examen de práctica práctico de CKS con 20 desafíos independientes de seguridad de Kubernetes que cubren la configuración del clúster, el endurecimiento del clúster, el endurecimiento del sistema, la reducción de vulnerabilidades en microservicios, la seguridad de la cadena de suministro y la seguridad en tiempo de ejecución.
 
 [Iniciar Curso](https://labex.io/es/courses/cks-practice-exam-01) · Laboratorios: 20
@@ -159,6 +163,8 @@ Un examen de práctica práctico de CKS con 20 desafíos independientes de segur
 |        4 | 🎯  Investigar actividad no autorizada en la API           | Principiante | [Iniciar Desafío](https://labex.io/es/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [Examen de práctica CKS 02](https://labex.io/es/courses/cks-practice-exam-02)
+
+[![Examen de práctica CKS 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=es)](https://labex.io/es/courses/cks-practice-exam-02)
 
 Un segundo examen de práctica independiente al estilo CKS con 20 desafíos de seguridad de Kubernetes que cubren los dominios públicos de CKS a través de diferentes escenarios de seguridad operativa.
 
