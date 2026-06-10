@@ -18,6 +18,8 @@ Préparez-vous à l'examen Certified Kubernetes Security Specialist (CKS) grâce
 
 ### 1. [Préparation CKS](https://labex.io/fr/courses/cks-prep)
 
+[![Préparation CKS](https://course-cover.labex.io/cks-prep.png?lang=fr)](https://labex.io/fr/courses/cks-prep)
+
 Un cours de préparation au CKS adapté aux débutants, comprenant 45 laboratoires Kubernetes guidés, structurés des bases de la sécurité à la configuration des clusters, au durcissement, à la sécurité des charges de travail, à la chaîne d'approvisionnement, à l'audit et à l'analyse du runtime.
 
 [Commencer le Cours](https://labex.io/fr/courses/cks-prep) · Labs: 45
@@ -104,6 +106,8 @@ Un cours de préparation au CKS adapté aux débutants, comprenant 45 laboratoir
 
 ### 2. [Examen blanc CKS 01](https://labex.io/fr/courses/cks-practice-exam-01)
 
+[![Examen blanc CKS 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=fr)](https://labex.io/fr/courses/cks-practice-exam-01)
+
 Un examen blanc pratique pour la certification CKS composé de 20 défis de sécurité Kubernetes indépendants, couvrant la configuration et le durcissement des clusters, le renforcement des systèmes, la réduction des vulnérabilités des microservices, la sécurité de la chaîne d'approvisionnement et la sécurité à l'exécution.
 
 [Commencer le Cours](https://labex.io/fr/courses/cks-practice-exam-01) · Labs: 20
@@ -159,6 +163,8 @@ Un examen blanc pratique pour la certification CKS composé de 20 défis de séc
 |       4 | 🎯  Enquêter sur une activité API non autorisée            | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [Examen blanc CKS 02](https://labex.io/fr/courses/cks-practice-exam-02)
+
+[![Examen blanc CKS 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=fr)](https://labex.io/fr/courses/cks-practice-exam-02)
 
 Un second examen blanc indépendant de type CKS, composé de 20 défis de sécurité Kubernetes couvrant les domaines officiels du CKS à travers divers scénarios de sécurité opérationnelle.
 
