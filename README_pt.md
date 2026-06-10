@@ -18,6 +18,8 @@ Prepare-se para o exame Certified Kubernetes Security Specialist (CKS) com um pe
 
 ### 1. [Preparatório para CKS](https://labex.io/pt/courses/cks-prep)
 
+[![Preparatório para CKS](https://course-cover.labex.io/cks-prep.png?lang=pt)](https://labex.io/pt/courses/cks-prep)
+
 Um curso preparatório para CKS ideal para iniciantes, com 45 experimentos guiados de segurança em Kubernetes, organizados desde os fundamentos de segurança até a configuração de clusters, endurecimento (hardening), segurança de cargas de trabalho, cadeia de suprimentos, auditoria e investigação em tempo de execução.
 
 [Iniciar Curso](https://labex.io/pt/courses/cks-prep) · Labs: 45
@@ -104,6 +106,8 @@ Um curso preparatório para CKS ideal para iniciantes, com 45 experimentos guiad
 
 ### 2. [Exame Prático CKS 01](https://labex.io/pt/courses/cks-practice-exam-01)
 
+[![Exame Prático CKS 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=pt)](https://labex.io/pt/courses/cks-practice-exam-01)
+
 Um exame prático e prático de CKS com 20 desafios independentes de segurança em Kubernetes, abrangendo configuração de cluster, endurecimento de cluster, endurecimento de sistema, redução de vulnerabilidades em microsserviços, segurança da cadeia de suprimentos e segurança em tempo de execução.
 
 [Iniciar Curso](https://labex.io/pt/courses/cks-practice-exam-01) · Labs: 20
@@ -159,6 +163,8 @@ Um exame prático e prático de CKS com 20 desafios independentes de segurança 
 |        4 | 🎯  Investigar Atividade Não Autorizada na API           | Iniciante     | [Iniciar Desafio](https://labex.io/pt/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [Exame Prático CKS 02](https://labex.io/pt/courses/cks-practice-exam-02)
+
+[![Exame Prático CKS 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=pt)](https://labex.io/pt/courses/cks-practice-exam-02)
 
 Um segundo exame prático independente no estilo CKS, com 20 desafios de segurança em Kubernetes que abrangem os domínios públicos do CKS por meio de diferentes cenários de segurança operacional.
 
