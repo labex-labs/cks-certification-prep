@@ -18,6 +18,8 @@ Certified Kubernetes Security Specialist（CKS）試験に向けた、体系的�
 
 ### 1. [CKS 試験対策コース](https://labex.io/ja/courses/cks-prep)
 
+[![CKS 試験対策コース](https://course-cover.labex.io/cks-prep.png?lang=ja)](https://labex.io/ja/courses/cks-prep)
+
 Kubernetes セキュリティの基礎から、クラスターの構築、ハードニング、ワークロードの保護、サプライチェーン、監査、実行時の調査まで、45 のガイド付き実験を通じて体系的に学べる初心者向けの CKS 対策コースです。
 
 [コースを開始](https://labex.io/ja/courses/cks-prep) · ラボ: 45
@@ -104,6 +106,8 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 
 ### 2. [CKS 模擬試験 01](https://labex.io/ja/courses/cks-practice-exam-01)
 
+[![CKS 模擬試験 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=ja)](https://labex.io/ja/courses/cks-practice-exam-01)
+
 クラスターのセットアップ、クラスターの強化、システムの強化、マイクロサービスの脆弱性軽減、サプライチェーンセキュリティ、ランタイムセキュリティを網羅した、20 の独立した Kubernetes セキュリティ課題に取り組む実践的な CKS 模擬試験です。
 
 [コースを開始](https://labex.io/ja/courses/cks-practice-exam-01) · ラボ: 20
@@ -159,6 +163,8 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        4 | 🎯  不正な API アクティビティの調査        | 初級    | [チャレンジを開始](https://labex.io/ja/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [CKS 模擬試験 02](https://labex.io/ja/courses/cks-practice-exam-02)
+
+[![CKS 模擬試験 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=ja)](https://labex.io/ja/courses/cks-practice-exam-02)
 
 CKS 試験の全範囲を網羅した、実践的なセキュリティシナリオに基づく 20 問の Kubernetes セキュリティ課題で構成される、独立した第 2 回模擬試験です。
 
