@@ -18,6 +18,8 @@
 
 ### 1. [Подготовка к CKS](https://labex.io/ru/courses/cks-prep)
 
+[![Подготовка к CKS](https://course-cover.labex.io/cks-prep.png?lang=ru)](https://labex.io/ru/courses/cks-prep)
+
 Курс по подготовке к CKS для начинающих, включающий 45 практических лабораторных работ по безопасности Kubernetes. Программа охватывает всё: от основ безопасности и настройки кластера до защиты рабочих нагрузок, цепочек поставок, аудита и анализа инцидентов в среде выполнения.
 
 [Начать Курс](https://labex.io/ru/courses/cks-prep) · Лаборатории: 45
@@ -104,6 +106,8 @@
 
 ### 2. [Практический экзамен CKS 01](https://labex.io/ru/courses/cks-practice-exam-01)
 
+[![Практический экзамен CKS 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=ru)](https://labex.io/ru/courses/cks-practice-exam-01)
+
 Практический экзамен CKS с 20 независимыми заданиями по безопасности Kubernetes, охватывающими настройку кластера, его усиление, защиту системы, устранение уязвимостей в микросервисах, безопасность цепочки поставок и защиту среды выполнения.
 
 [Начать Курс](https://labex.io/ru/courses/cks-practice-exam-01) · Лаборатории: 20
@@ -159,6 +163,8 @@
 |        4 | 🎯  Расследование несанкционированной активности API                          | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [Практический экзамен CKS 02](https://labex.io/ru/courses/cks-practice-exam-02)
+
+[![Практический экзамен CKS 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=ru)](https://labex.io/ru/courses/cks-practice-exam-02)
 
 Второй независимый практический экзамен в стиле CKS, включающий 20 задач по безопасности Kubernetes, которые охватывают все ключевые области CKS через различные сценарии операционной безопасности.
 
