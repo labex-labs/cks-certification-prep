@@ -1,8 +1,8 @@
-# CKS トレーニング 認定試験準備パス
+# CKS トレーニング Certification Prep Path
 
 ## 言語
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/ja/learn/cks"><img width="128px" src="https://file.labex.io/path/dzeGx0xsrUuR.png"></a>
@@ -22,7 +22,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 
 [コースを開始](https://labex.io/ja/courses/cks-prep) · ラボ: 45
 
-#### Security Foundations for Kubernetes
+#### Kubernetes セキュリティの基礎
 
 |   インデックス | 名前                             | 難易度   | 練習                                                                                              |
 |----------|--------------------------------|-------|-------------------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        5 | 🧩  ServiceAccount トークンの動作を調査する | 初級    | [ラボを開始](https://labex.io/ja/labs/inspect-serviceaccount-token-behavior-663925?course=cks-prep)  |
 |        6 | 🧩  Pod Security Standards の適用  | 初級    | [ラボを開始](https://labex.io/ja/labs/apply-pod-security-standards-663906?course=cks-prep)           |
 
-#### Cluster Setup Security
+#### クラスターセットアップのセキュリティ
 
 |   インデックス | 名前                                            | 難易度   | 練習                                                                                                     |
 |----------|-----------------------------------------------|-------|--------------------------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        6 | 🧩  kube-bench を使用した CIS ベンチマーク結果のレビュー         | 初級    | [ラボを開始](https://labex.io/ja/labs/review-cis-findings-with-kube-bench-663940?course=cks-prep)           |
 |        7 | 🧩  アドミッションと Pod セキュリティの準備状況の確認                | 初級    | [ラボを開始](https://labex.io/ja/labs/check-admission-and-pod-security-readiness-663910?course=cks-prep)    |
 
-#### Cluster Hardening
+#### クラスターの堅牢化
 
 |   インデックス | 名前                                      | 難易度   | 練習                                                                                                   |
 |----------|-----------------------------------------|-------|------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        6 | 🧩  漏洩した ServiceAccount トークンの封じ込め        | 初級    | [ラボを開始](https://labex.io/ja/labs/contain-a-leaked-serviceaccount-token-663912?course=cks-prep)       |
 |        7 | 🧩  機密リソースへのアクセス監査                       | 初級    | [ラボを開始](https://labex.io/ja/labs/audit-access-to-sensitive-resources-663907?course=cks-prep)         |
 
-#### System and Node Hardening
+#### システムおよびノードの堅牢化
 
 |   インデックス | 名前                                   | 難易度   | 練習                                                                                                         |
 |----------|--------------------------------------|-------|------------------------------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        5 | 🧩  ローカル seccomp プロファイルのインストール        | 初級    | [ラボを開始](https://labex.io/ja/labs/install-a-local-seccomp-profile-663926?course=cks-prep)                   |
 |        6 | 🧩  ワークロードから hostPath アクセスを削除する       | 初級    | [ラボを開始](https://labex.io/ja/labs/remove-hostpath-access-from-a-workload-663936?course=cks-prep)            |
 
-#### Workload and Microservice Security
+#### ワークロードとマイクロサービスのセキュリティ
 
 |   インデックス | 名前                           | 難易度   | 練習                                                                                                |
 |----------|------------------------------|-------|---------------------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        7 | 🧩  イミュータブル（不変）なランタイムコンテナの強制  | 初級    | [ラボを開始](https://labex.io/ja/labs/enforce-immutable-runtime-containers-663920?course=cks-prep)     |
 |        8 | 🧩  疑わしいワークロードの隔離             | 初級    | [ラボを開始](https://labex.io/ja/labs/quarantine-a-suspicious-workload-663933?course=cks-prep)         |
 
-#### Supply Chain Security
+#### サプライチェーンセキュリティ
 
 |   インデックス | 名前                                    | 難易度   | 練習                                                                                                |
 |----------|---------------------------------------|-------|---------------------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        5 | 🧩  信頼できるイメージレジストリの強制                  | 初級    | [ラボを開始](https://labex.io/ja/labs/enforce-trusted-image-registries-663921?course=cks-prep)         |
 |        6 | 🧩  イメージからビルドシークレットを削除する               | 初級    | [ラボを開始](https://labex.io/ja/labs/remove-build-secrets-from-an-image-663935?course=cks-prep)       |
 
-#### Monitoring, Audit, and Runtime Security
+#### 監視、監査、およびランタイムセキュリティ
 
 |   インデックス | 名前                           | 難易度   | 練習                                                                                             |
 |----------|------------------------------|-------|------------------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 
 [コースを開始](https://labex.io/ja/courses/cks-practice-exam-01) · ラボ: 20
 
-#### Cluster Setup
+#### クラスターのセットアップ
 
 |   インデックス | 名前                                  | 難易度   | 練習                                                                                                                    |
 |----------|-------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        2 | 🎯  TLS Ingress を使用した管理コンソールの公開      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/publish-an-admin-console-with-tls-ingress-663189?course=cks-practice-exam-01)     |
 |        3 | 🎯  デプロイ前の Kubernetes バイナリ検証         | 初級    | [チャレンジを開始](https://labex.io/ja/labs/verify-kubernetes-binaries-before-deployment-663194?course=cks-practice-exam-01)  |
 
-#### Cluster Hardening
+#### クラスターの強化
 
 |   インデックス | 名前                                    | 難易度   | 練習                                                                                                                  |
 |----------|---------------------------------------|-------|---------------------------------------------------------------------------------------------------------------------|
@@ -124,14 +124,14 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        2 | 🎯  デフォルトの ServiceAccount トークンマウントの無効化 | 初級    | [チャレンジを開始](https://labex.io/ja/labs/disable-default-serviceaccount-token-mounts-663178?course=cks-practice-exam-01) |
 |        3 | 🎯  インシデントリーダーの API アクセス制限             | 初級    | [チャレンジを開始](https://labex.io/ja/labs/limit-incident-reader-api-access-663186?course=cks-practice-exam-01)            |
 
-#### System Hardening
+#### システムの強化
 
 |   インデックス | 名前                             | 難易度   | 練習                                                                                                                |
 |----------|--------------------------------|-------|-------------------------------------------------------------------------------------------------------------------|
 |        1 | 🎯  ワークロードへの AppArmor プロファイルの適用 | 初級    | [チャレンジを開始](https://labex.io/ja/labs/enforce-an-apparmor-profile-on-a-workload-663179?course=cks-practice-exam-01) |
 |        2 | 🎯  ローカル Seccomp プロファイルのインストール  | 初級    | [チャレンジを開始](https://labex.io/ja/labs/install-a-local-seccomp-profile-663183?course=cks-practice-exam-01)           |
 
-#### Minimize Microservice Vulnerabilities
+#### マイクロサービスの脆弱性最小化
 
 |   インデックス | 名前                          | 難易度   | 練習                                                                                                           |
 |----------|-----------------------------|-------|--------------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        3 | 🎯  ランタイムセキュリティコンテキストの強化     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/harden-a-runtime-security-context-663182?course=cks-practice-exam-01)    |
 |        4 | 🎯  リスクのあるサイドカーの境界を分離する      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/isolate-a-risky-sidecar-boundary-663185?course=cks-practice-exam-01)     |
 
-#### Supply Chain Security
+#### サプライチェーンセキュリティ
 
 |   インデックス | 名前                                   | 難易度   | 練習                                                                                                              |
 |----------|--------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Kubernetes セキュリティの基礎から、クラスターの構築、ハー
 |        3 | 🎯  KubeLinter を使用したワークロードマニフェストのスキャン | 初級    | [チャレンジを開始](https://labex.io/ja/labs/scan-workload-manifests-with-kubelinter-663193?course=cks-practice-exam-01) |
 |        4 | 🎯  承認済みイメージダイジェストへのワークロード固定          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/pin-workloads-to-approved-image-digests-663187?course=cks-practice-exam-01) |
 
-#### Monitoring, Logging and Runtime Security
+#### 監視、ログ記録、およびランタイムセキュリティ
 
 |   インデックス | 名前                           | 難易度   | 練習                                                                                                            |
 |----------|------------------------------|-------|---------------------------------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ CKS 試験の全範囲を網羅した、実践的なセキュリティシナリ�
 
 [コースを開始](https://labex.io/ja/courses/cks-practice-exam-02) · ラボ: 20
 
-#### Cluster Setup
+#### クラスターのセットアップ
 
 |   インデックス | 名前                               | 難易度   | 練習                                                                                                               |
 |----------|----------------------------------|-------|------------------------------------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ CKS 試験の全範囲を網羅した、実践的なセキュリティシナリ�
 |        2 | 🎯  Kubelet 露出に関する CIS 調査結果のレビュー  | 初級    | [チャレンジを開始](https://labex.io/ja/labs/review-cis-findings-for-kubelet-exposure-663211?course=cks-practice-exam-02) |
 |        3 | 🎯  分割された Ingress ルートのための TLS 再発行 | 初級    | [チャレンジを開始](https://labex.io/ja/labs/reissue-tls-for-a-split-ingress-route-663206?course=cks-practice-exam-02)    |
 
-#### Cluster Hardening
+#### クラスターの強化
 
 |   インデックス | 名前                               | 難易度   | 練習                                                                                                            |
 |----------|----------------------------------|-------|---------------------------------------------------------------------------------------------------------------|
@@ -180,14 +180,14 @@ CKS 試験の全範囲を網羅した、実践的なセキュリティシナリ�
 |        2 | 🎯  漏洩した ServiceAccount トークンの封じ込め | 初級    | [チャレンジを開始](https://labex.io/ja/labs/contain-a-leaked-serviceaccount-token-663199?course=cks-practice-exam-02) |
 |        3 | 🎯  API サーバープロキシ昇格のブロック           | 初級    | [チャレンジを開始](https://labex.io/ja/labs/block-api-server-proxy-escalation-663197?course=cks-practice-exam-02)     |
 
-#### System Hardening
+#### システムの強化
 
 |   インデックス | 名前                 | 難易度   | 練習                                                                                                              |
 |----------|--------------------|-------|-----------------------------------------------------------------------------------------------------------------|
 |        1 | 🎯  ホストデバッグサービスの無効化 | 初級    | [チャレンジを開始](https://labex.io/ja/labs/disable-a-host-debug-service-663202?course=cks-practice-exam-02)            |
 |        2 | 🎯  ホストログ収集者の権限制限   | 初級    | [チャレンジを開始](https://labex.io/ja/labs/restrict-host-log-collector-permissions-663210?course=cks-practice-exam-02) |
 
-#### Minimize Microservice Vulnerabilities
+#### マイクロサービスの脆弱性最小化
 
 |   インデックス | 名前                               | 難易度   | 練習                                                                                                                |
 |----------|----------------------------------|-------|-------------------------------------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ CKS 試験の全範囲を網羅した、実践的なセキュリティシナリ�
 |        3 | 🎯  DNS 例外を用いたテナントエグレスの分離         | 初級    | [チャレンジを開始](https://labex.io/ja/labs/isolate-tenant-egress-with-dns-exceptions-663204?course=cks-practice-exam-02) |
 |        4 | 🎯  Web Pod からの HostPath キャッシュの削除 | 初級    | [チャレンジを開始](https://labex.io/ja/labs/remove-hostpath-cache-from-a-web-pod-663208?course=cks-practice-exam-02)      |
 
-#### Supply Chain Security
+#### サプライチェーンセキュリティ
 
 |   インデックス | 名前                               | 難易度   | 練習                                                                                                         |
 |----------|----------------------------------|-------|------------------------------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ CKS 試験の全範囲を網羅した、実践的なセキュリティシナリ�
 |        3 | 🎯  イメージからビルドシークレットを削除する          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/remove-build-secrets-from-an-image-663207?course=cks-practice-exam-02) |
 |        4 | 🎯  KubeLinter を使用した Helm 出力のスキャン | 初級    | [チャレンジを開始](https://labex.io/ja/labs/scan-helm-output-with-kubelinter-663213?course=cks-practice-exam-02)   |
 
-#### Monitoring, Logging and Runtime Security
+#### 監視、ログ記録、およびランタイムセキュリティ
 
 |   インデックス | 名前                    | 難易度   | 練習                                                                                                         |
 |----------|-----------------------|-------|------------------------------------------------------------------------------------------------------------|
