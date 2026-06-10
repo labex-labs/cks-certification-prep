@@ -18,6 +18,8 @@
 
 ### 1. [CKS 备考指南](https://labex.io/zh/courses/cks-prep)
 
+[![CKS 备考指南](https://course-cover.labex.io/cks-prep.png?lang=zh)](https://labex.io/zh/courses/cks-prep)
+
 这是一门面向初学者的 CKS 备考课程，包含 45 个引导式 Kubernetes 安全实验。课程内容由浅入深，涵盖安全基础、集群搭建、加固、工作负载安全、供应链安全、审计及运行时调查等核心领域。
 
 [开始课程](https://labex.io/zh/courses/cks-prep) · 实验: 45
@@ -104,6 +106,8 @@
 
 ### 2. [CKS 模拟考试 01](https://labex.io/zh/courses/cks-practice-exam-01)
 
+[![CKS 模拟考试 01](https://course-cover.labex.io/cks-practice-exam-01.png?lang=zh)](https://labex.io/zh/courses/cks-practice-exam-01)
+
 这是一套实战型 CKS 模拟考试，包含 20 个独立的 Kubernetes 安全挑战，涵盖集群设置、集群加固、系统加固、微服务漏洞缓解、供应链安全以及运行时安全等核心领域。
 
 [开始课程](https://labex.io/zh/courses/cks-practice-exam-01) · 实验: 20
@@ -159,6 +163,8 @@
 |    4 | 🎯  调查未经授权的 API 活动    | 初级   | [开始挑战](https://labex.io/zh/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [CKS 模拟考试 02](https://labex.io/zh/courses/cks-practice-exam-02)
+
+[![CKS 模拟考试 02](https://course-cover.labex.io/cks-practice-exam-02.png?lang=zh)](https://labex.io/zh/courses/cks-practice-exam-02)
 
 第二套独立的 CKS 风格模拟考试，包含 20 个 Kubernetes 安全挑战，涵盖了 CKS 公开考试大纲中涉及的各类操作安全场景。
 
