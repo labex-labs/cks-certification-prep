@@ -18,6 +18,8 @@ Prepare for the Certified Kubernetes Security Specialist (CKS) exam with a struc
 
 ### 1. [CKS Prep](https://labex.io/courses/cks-prep)
 
+[![CKS Prep](https://course-cover.labex.io/cks-prep.png)](https://labex.io/courses/cks-prep)
+
 A guided Certified Kubernetes Security Specialist (CKS) preparation course with 45 Kubernetes security labs arranged from security foundations to cluster setup, hardening, workload security, supply chain, audit, and runtime investigation.
 
 [Start Course](https://labex.io/courses/cks-prep) · Labs: 45
@@ -104,6 +106,8 @@ A guided Certified Kubernetes Security Specialist (CKS) preparation course with 
 
 ### 2. [CKS Practice Exam 01](https://labex.io/courses/cks-practice-exam-01)
 
+[![CKS Practice Exam 01](https://course-cover.labex.io/cks-practice-exam-01.png)](https://labex.io/courses/cks-practice-exam-01)
+
 A hands-on CKS practice exam with 20 independent Kubernetes security challenges covering cluster setup, cluster hardening, system hardening, microservice vulnerability reduction, supply chain security, and runtime security.
 
 [Start Course](https://labex.io/courses/cks-practice-exam-01) · Labs: 20
@@ -159,6 +163,8 @@ A hands-on CKS practice exam with 20 independent Kubernetes security challenges 
 |       4 | 🎯  Investigate Unauthorized API Activity | Beginner     | [Start Challenge](https://labex.io/labs/investigate-unauthorized-api-activity-663184?course=cks-practice-exam-01) |
 
 ### 3. [CKS Practice Exam 02](https://labex.io/courses/cks-practice-exam-02)
+
+[![CKS Practice Exam 02](https://course-cover.labex.io/cks-practice-exam-02.png)](https://labex.io/courses/cks-practice-exam-02)
 
 A second independent CKS-style practice exam with 20 Kubernetes security challenges covering the public CKS domains through different operational security scenarios.
 
